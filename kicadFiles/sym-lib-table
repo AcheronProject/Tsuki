@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name arcticPCB-rescue)(type Legacy)(uri ${KIPRJMOD}/arcticPCB-rescue.lib)(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
+)
