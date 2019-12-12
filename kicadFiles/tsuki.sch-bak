@@ -850,8 +850,8 @@ L Mechanical:MountingHole L1
 U 1 1 5D3B6D2E
 P 2300 14675
 F 0 "L1" H 2400 14721 50  0000 L CNN
-F 1 "ArcticLogo" H 2400 14630 50  0000 L CNN
-F 2 "arcticLogo:arcticLogoFilled" H 2300 14675 50  0001 C CNN
+F 1 "Tsuki Logo" H 2400 14630 50  0000 L CNN
+F 2 "tsukiGraphics:tsukiLogo_plated_25x11mm" H 2300 14675 50  0001 C CNN
 F 3 "~" H 2300 14675 50  0001 C CNN
 	1    2300 14675
 	1    0    0    -1  
@@ -1258,7 +1258,7 @@ U 1 1 5D8866EC
 P 2450 17350
 F 0 "H4" H 2550 17396 50  0000 L CNN
 F 1 "Oval Mounting Hole" H 2550 17305 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 17350 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 17350 50  0001 C CNN
 F 3 "~" H 2450 17350 50  0001 C CNN
 	1    2450 17350
 	1    0    0    -1  
@@ -3235,28 +3235,6 @@ Wire Wire Line
 	18875 15475 18875 15550
 Wire Wire Line
 	19125 15475 19125 15550
-$Comp
-L Mechanical:MountingHole L4
-U 1 1 5D8978A5
-P 2300 15225
-F 0 "L4" H 2400 15271 50  0000 L CNN
-F 1 "ArcticLabel" H 2400 15180 50  0000 L CNN
-F 2 "arcticGraphics:arcticLabel" H 2300 15225 50  0001 C CNN
-F 3 "~" H 2300 15225 50  0001 C CNN
-	1    2300 15225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole L5
-U 1 1 5D8978AB
-P 2300 15500
-F 0 "L5" H 2400 15546 50  0000 L CNN
-F 1 "Acheron Logo" H 2400 15455 50  0000 L CNN
-F 2 "arcticGraphics:arcticLabelMask" H 2300 15500 50  0001 C CNN
-F 3 "~" H 2300 15500 50  0001 C CNN
-	1    2300 15500
-	1    0    0    -1  
-$EndComp
 Wire Notes Line width 20
 	1950 13875 1950 15725
 Wire Notes Line width 20
