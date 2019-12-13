@@ -267,7 +267,7 @@ U 1 1 5C66B5D5
 P 2300 14375
 F 0 "L2" H 2400 14421 50  0000 L CNN
 F 1 "OSHLogo" H 2400 14330 50  0000 L CNN
-F 2 "oshLogo:osh-logo" H 2300 14375 50  0001 C CNN
+F 2 "acheron_Graphics:osh-logo" H 2300 14375 50  0001 C CNN
 F 3 "~" H 2300 14375 50  0001 C CNN
 	1    2300 14375
 	1    0    0    -1  
@@ -336,7 +336,7 @@ F 3 "~" H 20025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW13
+L tsuki-rescue:MXSwitch-acheronSymbols SW13
 U 1 1 5C1B87E3
 P 20025 4125
 F 0 "SW13" H 19925 4175 50  0000 L CNN
@@ -358,7 +358,7 @@ F 3 "~" H 19025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW12
+L tsuki-rescue:MXSwitch-acheronSymbols SW12
 U 1 1 5C15A389
 P 19025 4125
 F 0 "SW12" H 18925 4175 50  0000 L CNN
@@ -380,7 +380,7 @@ F 3 "~" H 18025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW11
+L tsuki-rescue:MXSwitch-acheronSymbols SW11
 U 1 1 5C15A378
 P 18025 4125
 F 0 "SW11" H 17925 4175 50  0000 L CNN
@@ -402,7 +402,7 @@ F 3 "~" H 17025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW10
+L tsuki-rescue:MXSwitch-acheronSymbols SW10
 U 1 1 5C15A35C
 P 17025 4125
 F 0 "SW10" H 16925 4175 50  0000 L CNN
@@ -424,7 +424,7 @@ F 3 "~" H 16025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW9
+L tsuki-rescue:MXSwitch-acheronSymbols SW9
 U 1 1 5C15A34B
 P 16025 4125
 F 0 "SW9" H 15950 4175 50  0000 L CNN
@@ -446,7 +446,7 @@ F 3 "~" H 15025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW8
+L tsuki-rescue:MXSwitch-acheronSymbols SW8
 U 1 1 5C12DA6F
 P 15025 4125
 F 0 "SW8" H 14950 4175 50  0000 L CNN
@@ -468,7 +468,7 @@ F 3 "~" H 12025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW5
+L tsuki-rescue:MXSwitch-acheronSymbols SW5
 U 1 1 5C12DA31
 P 12025 4125
 F 0 "SW5" H 11950 4175 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "" H 12025 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW3
+L tsuki-rescue:MXSwitch-acheronSymbols SW3
 U 1 1 5C115BC6
 P 10025 4125
 F 0 "SW3" H 9950 4175 50  0000 L CNN
@@ -492,7 +492,7 @@ $EndComp
 Wire Wire Line
 	8675 4125 8525 4125
 $Comp
-L acheronSymbols:MXSwitch SW2
+L tsuki-rescue:MXSwitch-acheronSymbols SW2
 U 1 1 5C0D3AD9
 P 9025 4125
 F 0 "SW2" H 8950 4175 50  0000 L CNN
@@ -505,7 +505,7 @@ $EndComp
 Wire Wire Line
 	7175 3475 8025 3475
 $Comp
-L acheronSymbols:MXSwitch SW1
+L tsuki-rescue:MXSwitch-acheronSymbols SW1
 U 1 1 5C015E05
 P 8025 4125
 F 0 "SW1" H 7950 4175 50  0000 L CNN
@@ -1235,7 +1235,7 @@ U 1 1 5D878CA4
 P 2450 16850
 F 0 "H2" H 2550 16896 50  0000 L CNN
 F 1 "Mounting Hole" H 2550 16805 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 16850 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 16850 50  0001 C CNN
 F 3 "~" H 2450 16850 50  0001 C CNN
 	1    2450 16850
 	1    0    0    -1  
@@ -1246,7 +1246,7 @@ U 1 1 5D8862CE
 P 2450 17100
 F 0 "H3" H 2550 17146 50  0000 L CNN
 F 1 "Oval Mounting Hole" H 2550 17055 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 17100 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 17100 50  0001 C CNN
 F 3 "~" H 2450 17100 50  0001 C CNN
 	1    2450 17100
 	1    0    0    -1  
@@ -1260,28 +1260,6 @@ F 1 "Oval Mounting Hole" H 2550 17305 50  0000 L CNN
 F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 17350 50  0001 C CNN
 F 3 "~" H 2450 17350 50  0001 C CNN
 	1    2450 17350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5D886A2F
-P 2450 17600
-F 0 "H5" H 2550 17646 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 2550 17555 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 17600 50  0001 C CNN
-F 3 "~" H 2450 17600 50  0001 C CNN
-	1    2450 17600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5D9357B9
-P 2450 17850
-F 0 "H6" H 2550 17896 50  0000 L CNN
-F 1 "Half Side Hole " H 2550 17805 50  0000 L CNN
-F 2 "acheron_MountingHoles:halfSideHole" H 2450 17850 50  0001 C CNN
-F 3 "~" H 2450 17850 50  0001 C CNN
-	1    2450 17850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1343,7 +1321,7 @@ F 3 "~" H 21025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW14
+L tsuki-rescue:MXSwitch-acheronSymbols SW14
 U 1 1 5E1F79AD
 P 21025 4125
 F 0 "SW14" H 20850 4150 30  0000 L CNN
@@ -1370,7 +1348,7 @@ F 3 "~" H 8025 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW15
+L tsuki-rescue:MXSwitch-acheronSymbols SW15
 U 1 1 5E2159DF
 P 8025 5100
 F 0 "SW15" H 7950 5150 50  0000 L CNN
@@ -1405,7 +1383,7 @@ F 3 "~" H 10025 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW16
+L tsuki-rescue:MXSwitch-acheronSymbols SW16
 U 1 1 5E236E10
 P 9025 5100
 F 0 "SW16" H 8950 5150 50  0000 L CNN
@@ -1416,7 +1394,7 @@ F 3 "" H 9025 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW17
+L tsuki-rescue:MXSwitch-acheronSymbols SW17
 U 1 1 5E236E0A
 P 10025 5100
 F 0 "SW17" H 9950 5150 50  0000 L CNN
@@ -1431,7 +1409,7 @@ Wire Wire Line
 Wire Wire Line
 	9675 5100 9525 5100
 $Comp
-L acheronSymbols:MXSwitch SW18
+L tsuki-rescue:MXSwitch-acheronSymbols SW18
 U 1 1 5E236E02
 P 11025 5100
 F 0 "SW18" H 10950 5150 50  0000 L CNN
@@ -1442,7 +1420,7 @@ F 3 "" H 11025 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW19
+L tsuki-rescue:MXSwitch-acheronSymbols SW19
 U 1 1 5E236DF6
 P 12025 5100
 F 0 "SW19" H 11950 5150 50  0000 L CNN
@@ -1457,7 +1435,7 @@ Wire Wire Line
 Wire Wire Line
 	11675 5100 11525 5100
 $Comp
-L acheronSymbols:MXSwitch SW20
+L tsuki-rescue:MXSwitch-acheronSymbols SW20
 U 1 1 5E236DEE
 P 13025 5100
 F 0 "SW20" H 12950 5150 50  0000 L CNN
@@ -1468,7 +1446,7 @@ F 3 "" H 13025 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW21
+L tsuki-rescue:MXSwitch-acheronSymbols SW21
 U 1 1 5E236DE8
 P 14025 5100
 F 0 "SW21" H 13950 5150 50  0000 L CNN
@@ -1494,7 +1472,7 @@ Wire Wire Line
 Wire Wire Line
 	13675 5100 13525 5100
 $Comp
-L acheronSymbols:MXSwitch SW22
+L tsuki-rescue:MXSwitch-acheronSymbols SW22
 U 1 1 5E236DDA
 P 15025 5100
 F 0 "SW22" H 14950 5150 50  0000 L CNN
@@ -1516,7 +1494,7 @@ F 3 "~" H 15025 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW23
+L tsuki-rescue:MXSwitch-acheronSymbols SW23
 U 1 1 5E236DCE
 P 16025 5100
 F 0 "SW23" H 15925 5150 50  0000 L CNN
@@ -1542,7 +1520,7 @@ Wire Wire Line
 Wire Wire Line
 	15675 5100 15525 5100
 $Comp
-L acheronSymbols:MXSwitch SW24
+L tsuki-rescue:MXSwitch-acheronSymbols SW24
 U 1 1 5E236DC0
 P 17025 5100
 F 0 "SW24" H 16925 5150 50  0000 L CNN
@@ -1564,7 +1542,7 @@ F 3 "~" H 17025 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW25
+L tsuki-rescue:MXSwitch-acheronSymbols SW25
 U 1 1 5E236DB4
 P 18025 5100
 F 0 "SW25" H 17925 5150 50  0000 L CNN
@@ -1590,7 +1568,7 @@ Wire Wire Line
 Wire Wire Line
 	17675 5100 17525 5100
 $Comp
-L acheronSymbols:MXSwitch SW26
+L tsuki-rescue:MXSwitch-acheronSymbols SW26
 U 1 1 5E236DA6
 P 19025 5100
 F 0 "SW26" H 18925 5150 50  0000 L CNN
@@ -1670,7 +1648,7 @@ Wire Wire Line
 Wire Wire Line
 	18525 3125 18525 4125
 $Comp
-L acheronSymbols:MXSwitch SW27
+L tsuki-rescue:MXSwitch-acheronSymbols SW27
 U 1 1 5E416FC6
 P 20025 5100
 F 0 "SW27" H 19925 5150 50  0000 L CNN
@@ -1694,7 +1672,7 @@ $EndComp
 Wire Wire Line
 	19675 5100 19525 5100
 $Comp
-L acheronSymbols:MXSwitch SW28
+L tsuki-rescue:MXSwitch-acheronSymbols SW28
 U 1 1 5E44A766
 P 21025 6075
 F 0 "SW28" H 20925 6125 50  0000 L CNN
@@ -1729,7 +1707,7 @@ Wire Wire Line
 Wire Wire Line
 	9525 3125 9525 4125
 $Comp
-L acheronSymbols:MXSwitch SW4
+L tsuki-rescue:MXSwitch-acheronSymbols SW4
 U 1 1 5C115BD7
 P 11025 4125
 F 0 "SW4" H 10950 4175 50  0000 L CNN
@@ -1746,7 +1724,7 @@ Wire Wire Line
 Connection ~ 14025 4450
 Connection ~ 12025 4450
 $Comp
-L acheronSymbols:MXSwitch SW6
+L tsuki-rescue:MXSwitch-acheronSymbols SW6
 U 1 1 5C12DA42
 P 13025 4125
 F 0 "SW6" H 12950 4175 50  0000 L CNN
@@ -1775,7 +1753,7 @@ F 3 "~" H 13025 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW7
+L tsuki-rescue:MXSwitch-acheronSymbols SW7
 U 1 1 5C12DA5E
 P 14025 4125
 F 0 "SW7" H 13950 4175 50  0000 L CNN
@@ -1856,7 +1834,7 @@ U 1 1 5E63D297
 P 2450 18100
 F 0 "H7" H 2550 18146 50  0000 L CNN
 F 1 "Oval Mounting Hole" H 2550 18055 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 18100 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 18100 50  0001 C CNN
 F 3 "~" H 2450 18100 50  0001 C CNN
 	1    2450 18100
 	1    0    0    -1  
@@ -1878,7 +1856,7 @@ U 1 1 5E63D910
 P 2450 18600
 F 0 "H9" H 2550 18646 50  0000 L CNN
 F 1 "Oval Mounting Hole" H 2550 18555 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 18600 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 18600 50  0001 C CNN
 F 3 "~" H 2450 18600 50  0001 C CNN
 	1    2450 18600
 	1    0    0    -1  
@@ -1889,7 +1867,7 @@ U 1 1 5E64C744
 P 2450 18850
 F 0 "H10" H 2550 18896 50  0000 L CNN
 F 1 "Oval Mounting Hole" H 2550 18805 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 2450 18850 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 18850 50  0001 C CNN
 F 3 "~" H 2450 18850 50  0001 C CNN
 	1    2450 18850
 	1    0    0    -1  
@@ -1910,7 +1888,7 @@ F 3 "~" H 8025 5575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW29
+L tsuki-rescue:MXSwitch-acheronSymbols SW29
 U 1 1 5E670989
 P 8025 6075
 F 0 "SW29" H 8050 6175 30  0000 C CNN
@@ -1943,7 +1921,7 @@ F 3 "~" H 10025 5575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW30
+L tsuki-rescue:MXSwitch-acheronSymbols SW30
 U 1 1 5E67099C
 P 9025 6075
 F 0 "SW30" H 8950 6125 50  0000 L CNN
@@ -1954,7 +1932,7 @@ F 3 "" H 9025 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW31
+L tsuki-rescue:MXSwitch-acheronSymbols SW31
 U 1 1 5E6709A2
 P 10025 6075
 F 0 "SW31" H 9950 6125 50  0000 L CNN
@@ -1969,7 +1947,7 @@ Wire Wire Line
 Wire Wire Line
 	9675 6075 9525 6075
 $Comp
-L acheronSymbols:MXSwitch SW32
+L tsuki-rescue:MXSwitch-acheronSymbols SW32
 U 1 1 5E6709AA
 P 11025 6075
 F 0 "SW32" H 10950 6125 50  0000 L CNN
@@ -1980,7 +1958,7 @@ F 3 "" H 11025 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW33
+L tsuki-rescue:MXSwitch-acheronSymbols SW33
 U 1 1 5E6709B0
 P 12025 6075
 F 0 "SW33" H 12025 6125 50  0000 C CNN
@@ -1995,7 +1973,7 @@ Wire Wire Line
 Wire Wire Line
 	11675 6075 11525 6075
 $Comp
-L acheronSymbols:MXSwitch SW34
+L tsuki-rescue:MXSwitch-acheronSymbols SW34
 U 1 1 5E6709B8
 P 13025 6075
 F 0 "SW34" H 13025 6125 50  0000 C CNN
@@ -2006,7 +1984,7 @@ F 3 "" H 13025 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW35
+L tsuki-rescue:MXSwitch-acheronSymbols SW35
 U 1 1 5E6709BE
 P 14025 6075
 F 0 "SW35" H 13950 6125 50  0000 L CNN
@@ -2032,7 +2010,7 @@ Wire Wire Line
 Wire Wire Line
 	13675 6075 13525 6075
 $Comp
-L acheronSymbols:MXSwitch SW36
+L tsuki-rescue:MXSwitch-acheronSymbols SW36
 U 1 1 5E6709CC
 P 15025 6075
 F 0 "SW36" H 14950 6125 50  0000 L CNN
@@ -2054,7 +2032,7 @@ F 3 "~" H 15025 5575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW37
+L tsuki-rescue:MXSwitch-acheronSymbols SW37
 U 1 1 5E6709D8
 P 16025 6075
 F 0 "SW37" H 15925 6125 50  0000 L CNN
@@ -2080,7 +2058,7 @@ Wire Wire Line
 Wire Wire Line
 	15675 6075 15525 6075
 $Comp
-L acheronSymbols:MXSwitch SW38
+L tsuki-rescue:MXSwitch-acheronSymbols SW38
 U 1 1 5E6709E6
 P 17025 6075
 F 0 "SW38" H 16925 6125 50  0000 L CNN
@@ -2102,7 +2080,7 @@ F 3 "~" H 17025 5575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW39
+L tsuki-rescue:MXSwitch-acheronSymbols SW39
 U 1 1 5E6709F2
 P 18025 6075
 F 0 "SW39" H 17925 6125 50  0000 L CNN
@@ -2128,7 +2106,7 @@ Wire Wire Line
 Wire Wire Line
 	17675 6075 17525 6075
 $Comp
-L acheronSymbols:MXSwitch SW40
+L tsuki-rescue:MXSwitch-acheronSymbols SW40
 U 1 1 5E670A00
 P 19025 6075
 F 0 "SW40" H 18925 6125 50  0000 L CNN
@@ -2202,7 +2180,7 @@ Wire Wire Line
 Wire Wire Line
 	18675 6075 18525 6075
 $Comp
-L acheronSymbols:MXSwitch SW41
+L tsuki-rescue:MXSwitch-acheronSymbols SW41
 U 1 1 5E670A2B
 P 20025 6075
 F 0 "SW41" H 19925 6100 30  0000 C CNN
@@ -2281,7 +2259,7 @@ F 3 "~" H 8025 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW42
+L tsuki-rescue:MXSwitch-acheronSymbols SW42
 U 1 1 5E6F3BD6
 P 8025 7050
 F 0 "SW42" H 8025 7100 50  0000 C CNN
@@ -2314,7 +2292,7 @@ F 3 "~" H 11025 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW43
+L tsuki-rescue:MXSwitch-acheronSymbols SW43
 U 1 1 5E6F3BE9
 P 10025 7050
 F 0 "SW43" H 10025 7100 50  0000 C CNN
@@ -2325,7 +2303,7 @@ F 3 "" H 10025 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW44
+L tsuki-rescue:MXSwitch-acheronSymbols SW44
 U 1 1 5E6F3BEF
 P 11025 7050
 F 0 "SW44" H 11025 7100 50  0000 C CNN
@@ -2340,7 +2318,7 @@ Wire Wire Line
 Wire Wire Line
 	10675 7050 10525 7050
 $Comp
-L acheronSymbols:MXSwitch SW45
+L tsuki-rescue:MXSwitch-acheronSymbols SW45
 U 1 1 5E6F3BF7
 P 12025 7050
 F 0 "SW45" H 12025 7100 50  0000 C CNN
@@ -2351,7 +2329,7 @@ F 3 "" H 12025 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW46
+L tsuki-rescue:MXSwitch-acheronSymbols SW46
 U 1 1 5E6F3BFD
 P 13025 7050
 F 0 "SW46" H 13025 7100 50  0000 C CNN
@@ -2366,7 +2344,7 @@ Wire Wire Line
 Wire Wire Line
 	12675 7050 12525 7050
 $Comp
-L acheronSymbols:MXSwitch SW47
+L tsuki-rescue:MXSwitch-acheronSymbols SW47
 U 1 1 5E6F3C05
 P 14025 7050
 F 0 "SW47" H 14025 7100 50  0000 C CNN
@@ -2377,7 +2355,7 @@ F 3 "" H 14025 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW48
+L tsuki-rescue:MXSwitch-acheronSymbols SW48
 U 1 1 5E6F3C0B
 P 15025 7050
 F 0 "SW48" H 15025 7100 50  0000 C CNN
@@ -2403,7 +2381,7 @@ Wire Wire Line
 Wire Wire Line
 	14675 7050 14525 7050
 $Comp
-L acheronSymbols:MXSwitch SW49
+L tsuki-rescue:MXSwitch-acheronSymbols SW49
 U 1 1 5E6F3C19
 P 16025 7050
 F 0 "SW49" H 16025 7100 50  0000 C CNN
@@ -2425,7 +2403,7 @@ F 3 "~" H 16025 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW50
+L tsuki-rescue:MXSwitch-acheronSymbols SW50
 U 1 1 5E6F3C25
 P 17025 7050
 F 0 "SW50" H 17025 7100 50  0000 C CNN
@@ -2451,7 +2429,7 @@ Wire Wire Line
 Wire Wire Line
 	16675 7050 16525 7050
 $Comp
-L acheronSymbols:MXSwitch SW51
+L tsuki-rescue:MXSwitch-acheronSymbols SW51
 U 1 1 5E6F3C33
 P 18025 7050
 F 0 "SW51" H 18025 7100 50  0000 C CNN
@@ -2473,7 +2451,7 @@ F 3 "~" H 18025 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW52
+L tsuki-rescue:MXSwitch-acheronSymbols SW52
 U 1 1 5E6F3C3F
 P 19025 7050
 F 0 "SW52" H 18925 7100 50  0000 L CNN
@@ -2499,7 +2477,7 @@ Wire Wire Line
 Wire Wire Line
 	18675 7050 18525 7050
 $Comp
-L acheronSymbols:MXSwitch SW53
+L tsuki-rescue:MXSwitch-acheronSymbols SW53
 U 1 1 5E6F3C4D
 P 20025 7050
 F 0 "SW53" H 19975 7100 30  0000 R CNN
@@ -2625,7 +2603,7 @@ F 3 "~" H 8025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW54
+L tsuki-rescue:MXSwitch-acheronSymbols SW54
 U 1 1 5E76D2CB
 P 8025 8025
 F 0 "SW54" H 8025 8075 50  0000 C CNN
@@ -2654,7 +2632,7 @@ F 3 "~" H 9025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW55
+L tsuki-rescue:MXSwitch-acheronSymbols SW55
 U 1 1 5E787F0E
 P 9025 8025
 F 0 "SW55" H 9025 8075 50  0000 C CNN
@@ -2678,7 +2656,7 @@ F 3 "~" H 10025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW56
+L tsuki-rescue:MXSwitch-acheronSymbols SW56
 U 1 1 5E7A3AC2
 P 10025 8025
 F 0 "SW56" H 10025 8075 50  0000 C CNN
@@ -2707,7 +2685,7 @@ F 3 "~" H 14025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW57
+L tsuki-rescue:MXSwitch-acheronSymbols SW57
 U 1 1 5E7E3510
 P 14025 8025
 F 0 "SW57" H 14025 8075 50  0000 C CNN
@@ -2751,7 +2729,7 @@ F 3 "~" H 18025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW59
+L tsuki-rescue:MXSwitch-acheronSymbols SW59
 U 1 1 5E827DBD
 P 18025 8025
 F 0 "SW59" H 18025 8075 50  0000 C CNN
@@ -2759,7 +2737,7 @@ F 1 "RGUI_150" H 18025 7950 40  0000 C CNN
 F 2 "acheron_MX_SolderMask:MX150" H 18025 8025 50  0001 C CNN
 F 3 "" H 18025 8025 50  0001 C CNN
 	1    18025 8025
-	1    0    0    -1  
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	18525 7050 18525 8025
@@ -2777,7 +2755,7 @@ F 3 "~" H 19025 7525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW60
+L tsuki-rescue:MXSwitch-acheronSymbols SW60
 U 1 1 5E827DCB
 P 19025 8025
 F 0 "SW60" H 19025 8075 50  0000 C CNN
@@ -2792,7 +2770,7 @@ Wire Wire Line
 Connection ~ 14025 7375
 Connection ~ 17025 7375
 $Comp
-L acheronSymbols:MXSwitch SW61
+L tsuki-rescue:MXSwitch-acheronSymbols SW61
 U 1 1 5E8999F7
 P 20050 7025
 F 0 "SW61" H 19975 6950 30  0000 R CNN
@@ -2826,7 +2804,7 @@ Wire Wire Line
 	20025 6675 20025 6700
 Connection ~ 20025 6700
 $Comp
-L acheronSymbols:MXSwitch SW62
+L tsuki-rescue:MXSwitch-acheronSymbols SW62
 U 1 1 5E8F4BA0
 P 21025 8025
 F 0 "SW62" H 21025 8075 50  0000 C CNN
@@ -2837,7 +2815,7 @@ F 3 "" H 21025 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW63
+L tsuki-rescue:MXSwitch-acheronSymbols SW63
 U 1 1 5E90C058
 P 8050 6050
 F 0 "SW63" H 8050 5925 30  0000 C CNN
@@ -2858,7 +2836,7 @@ Wire Wire Line
 	8025 5700 8025 5725
 Connection ~ 8025 5725
 $Comp
-L acheronSymbols:MXSwitch SW64
+L tsuki-rescue:MXSwitch-acheronSymbols SW64
 U 1 1 5E951EB5
 P 21050 4100
 F 0 "SW64" H 20850 4000 30  0000 L CNN
@@ -2868,10 +2846,6 @@ F 3 "" H 21050 4100 50  0001 C CNN
 	1    21050 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	21050 3750 21050 3775
-Wire Wire Line
-	21050 3775 21025 3775
 Connection ~ 21025 3775
 Wire Wire Line
 	20700 4100 20700 4125
@@ -3318,7 +3292,7 @@ Connection ~ 18525 6075
 Connection ~ 19525 5100
 Connection ~ 19525 6075
 $Comp
-L acheronSymbols:MXSwitch SW65
+L tsuki-rescue:MXSwitch-acheronSymbols SW65
 U 1 1 5E993FBF
 P 21025 5100
 F 0 "SW65" H 21025 5150 50  0000 C CNN
@@ -3329,7 +3303,7 @@ F 3 "" H 21025 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW58
+L tsuki-rescue:MXSwitch-acheronSymbols SW58
 U 1 1 5E827DAF
 P 17025 8025
 F 0 "SW58" H 17025 8075 50  0000 C CNN
@@ -3340,7 +3314,7 @@ F 3 "" H 17025 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW67
+L tsuki-rescue:MXSwitch-acheronSymbols SW67
 U 1 1 5D9036EA
 P 20075 6125
 F 0 "SW67" H 19925 6125 30  0000 C CNN
@@ -3378,7 +3352,7 @@ F 3 "~" H 9025 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW66
+L tsuki-rescue:MXSwitch-acheronSymbols SW66
 U 1 1 5D9B0B1B
 P 9025 7050
 F 0 "SW66" H 9025 7100 50  0000 C CNN
@@ -3408,7 +3382,7 @@ Wire Wire Line
 	20525 6075 20525 7050
 Connection ~ 20525 6075
 $Comp
-L acheronSymbols:MXSwitch SW88
+L tsuki-rescue:MXSwitch-acheronSymbols SW88
 U 1 1 5DC9128E
 P 21025 7050
 F 0 "SW88" H 20925 7100 50  0000 L CNN
@@ -3437,7 +3411,7 @@ Wire Wire Line
 Wire Wire Line
 	7675 9000 7525 9000
 $Comp
-L acheronSymbols:MXSwitch SW68
+L tsuki-rescue:MXSwitch-acheronSymbols SW68
 U 1 1 5DD9A04C
 P 8025 9000
 F 0 "SW68" H 8025 9050 50  0000 C CNN
@@ -3450,7 +3424,7 @@ $EndComp
 Wire Wire Line
 	7525 8025 7525 9000
 $Comp
-L acheronSymbols:MXSwitch SW69
+L tsuki-rescue:MXSwitch-acheronSymbols SW69
 U 1 1 5DD9A05C
 P 9025 9000
 F 0 "SW69" H 9025 9050 50  0000 C CNN
@@ -3463,7 +3437,7 @@ $EndComp
 Wire Wire Line
 	9675 9000 9525 9000
 $Comp
-L acheronSymbols:MXSwitch SW71
+L tsuki-rescue:MXSwitch-acheronSymbols SW71
 U 1 1 5DD9A069
 P 10025 9000
 F 0 "SW71" H 10025 9050 50  0000 C CNN
@@ -3482,7 +3456,7 @@ Wire Wire Line
 Wire Wire Line
 	17675 9000 17525 9000
 $Comp
-L acheronSymbols:MXSwitch SW83
+L tsuki-rescue:MXSwitch-acheronSymbols SW83
 U 1 1 5DD9A092
 P 18025 9000
 F 0 "SW83" H 18025 9050 50  0000 C CNN
@@ -3495,7 +3469,7 @@ $EndComp
 Wire Wire Line
 	18675 9025 18525 9025
 $Comp
-L acheronSymbols:MXSwitch SW86
+L tsuki-rescue:MXSwitch-acheronSymbols SW86
 U 1 1 5DD9A0A0
 P 19025 9025
 F 0 "SW86" H 19025 9075 50  0000 C CNN
@@ -3519,7 +3493,7 @@ $EndComp
 Wire Wire Line
 	15675 9000 15525 9000
 $Comp
-L acheronSymbols:MXSwitch SW80
+L tsuki-rescue:MXSwitch-acheronSymbols SW80
 U 1 1 5DD9A0B4
 P 16025 9000
 F 0 "SW80" H 16025 9050 50  0000 C CNN
@@ -3530,7 +3504,7 @@ F 3 "" H 16025 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch RGUI_125
+L tsuki-rescue:MXSwitch-acheronSymbols RGUI_125
 U 1 1 5DD9A0BA
 P 17025 9000
 F 0 "RGUI_125" H 17025 9050 50  0000 C CNN
@@ -3551,7 +3525,7 @@ Connection ~ 13525 8025
 Wire Wire Line
 	13525 8025 13525 9000
 $Comp
-L acheronSymbols:MXSwitch SW75
+L tsuki-rescue:MXSwitch-acheronSymbols SW75
 U 1 1 5DD9A079
 P 14025 9000
 F 0 "SW75" H 14025 9050 50  0000 C CNN
@@ -3566,7 +3540,7 @@ Wire Wire Line
 Wire Wire Line
 	8675 9975 8525 9975
 $Comp
-L acheronSymbols:MXSwitch SW70
+L tsuki-rescue:MXSwitch-acheronSymbols SW70
 U 1 1 5E0F3B07
 P 9025 9975
 F 0 "SW70" H 9025 10025 50  0000 C CNN
@@ -3578,23 +3552,12 @@ F 3 "" H 9025 9975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13675 9975 13525 9975
-$Comp
-L acheronSymbols:MXSwitch SW77
-U 1 1 5E0F3B22
-P 14025 9975
-F 0 "SW77" H 14025 10025 50  0000 C CNN
-F 1 "SPACE_700" H 14025 9900 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX700R" H 14025 9975 50  0001 C CNN
-F 3 "" H 14025 9975 50  0001 C CNN
-	1    14025 9975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16675 9975 16525 9975
 Wire Wire Line
 	17675 9975 17525 9975
 $Comp
-L acheronSymbols:MXSwitch SW84
+L tsuki-rescue:MXSwitch-acheronSymbols SW84
 U 1 1 5E0F3B38
 P 18025 9975
 F 0 "SW84" H 18025 10025 50  0000 C CNN
@@ -3605,7 +3568,7 @@ F 3 "" H 18025 9975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW81
+L tsuki-rescue:MXSwitch-acheronSymbols SW81
 U 1 1 5E0F3B4D
 P 17025 9975
 F 0 "SW81" H 17025 10025 50  0000 C CNN
@@ -3712,12 +3675,12 @@ Wire Notes Line width 20 rgb(255, 123, 0)
 	20000 9350 4950 9350
 Wire Notes Line width 20 rgb(255, 123, 0)
 	20025 10350 4975 10350
-Text Notes 2925 8225 0    200  ~ 40
-6U Bottom
-Text Notes 2900 9025 0    200  ~ 40
-6.25U Bottom
-Text Notes 2875 9975 0    200  ~ 40
-7U Bottom
+Text Notes 7300 8150 2    150  ~ 30
+6U Bottom (H for HHKB)
+Text Notes 7300 9050 2    150  ~ 30
+6.25U Bottom (D for default ANSI)
+Text Notes 7300 10000 2    150  ~ 30
+7U Bottom (T for Tsangan bottom)
 Connection ~ 16525 9000
 Connection ~ 17525 9000
 Wire Notes Line width 20
@@ -3727,7 +3690,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	6625 2675 21800 2675
 $Comp
-L acheronSymbols:MXSwitch SW89
+L tsuki-rescue:MXSwitch-acheronSymbols SW89
 U 1 1 5F9DE323
 P 8075 7100
 F 0 "SW89" H 8075 7150 50  0000 C CNN
@@ -3768,7 +3731,7 @@ Wire Wire Line
 Wire Wire Line
 	19525 6075 19525 7050
 $Comp
-L acheronSymbols:MXSwitch SW72
+L tsuki-rescue:MXSwitch-acheronSymbols SW72
 U 1 1 5E0F3B14
 P 10025 9975
 F 0 "SW72" H 10025 10025 50  0000 C CNN
@@ -3792,4 +3755,52 @@ Wire Wire Line
 	17525 9000 17525 9975
 Wire Wire Line
 	9525 9000 9525 9975
+Wire Wire Line
+	21050 3750 21025 3750
+Wire Wire Line
+	21025 3750 21025 3775
+$Comp
+L Mechanical:MountingHole L4
+U 1 1 5E0FA755
+P 2300 15200
+F 0 "L4" H 2400 15246 50  0000 L CNN
+F 1 "TsukiLabel" H 2400 15155 50  0000 L CNN
+F 2 "tsukiGraphics:tsukiLabel_30x12mm" H 2300 15200 50  0001 C CNN
+F 3 "~" H 2300 15200 50  0001 C CNN
+	1    2300 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW77
+U 1 1 5E0F3B22
+P 14025 9975
+F 0 "SW77" H 14025 10025 50  0000 C CNN
+F 1 "SPACE_700" H 14025 9900 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX700R" H 14025 9975 50  0001 C CNN
+F 3 "" H 14025 9975 50  0001 C CNN
+	1    14025 9975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5D9357B9
+P 2450 17850
+F 0 "H6" H 2550 17896 50  0000 L CNN
+F 1 "Half Side Hole " H 2550 17805 50  0000 L CNN
+F 2 "acheron_MountingHoles:halfSideHole" H 2450 17850 50  0001 C CNN
+F 3 "~" H 2450 17850 50  0001 C CNN
+	1    2450 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5D886A2F
+P 2450 17600
+F 0 "H5" H 2550 17646 50  0000 L CNN
+F 1 "Oval Mounting Hole" H 2550 17555 50  0000 L CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 17600 50  0001 C CNN
+F 3 "~" H 2450 17600 50  0001 C CNN
+	1    2450 17600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

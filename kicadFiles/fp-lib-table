@@ -12,4 +12,5 @@
   (lib (name acheron_MX_SolderMask)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_MX_SolderMask.pretty)(options "")(descr ""))
   (lib (name arcticGraphics)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/ArcticPCB/graphics/arcticGraphics.pretty)(options "")(descr ""))
   (lib (name tsukiGraphics)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/Tsuki/graphics/tsukiGraphics.pretty)(options "")(descr ""))
+  (lib (name acheron_Graphics)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_Graphics.pretty)(options "")(descr ""))
 )
