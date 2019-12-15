@@ -409,11 +409,96 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# acheronSymbols_STM32F072-LQFP48
+# acheronSymbols_LED
 #
-DEF acheronSymbols_STM32F072-LQFP48 U 0 40 Y Y 1 F N
+DEF acheronSymbols_LED LED 0 40 Y Y 1 F N
+F0 "LED" 0 -150 20 H V C CNN
+F1 "acheronSymbols_LED" 0 150 20 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 112 0 1 0 N
+P 2 0 1 0 -100 0 -150 0 N
+P 2 0 1 0 50 0 100 0 N
+P 2 0 1 0 50 50 50 -50 N
+P 2 0 1 0 100 0 150 0 N
+P 7 0 1 0 -100 0 -50 0 -50 50 -50 -50 50 0 -50 50 -50 0 N
+X A A -150 0 50 R 0 0 1 1 I
+X K K 150 0 50 L 0 0 1 1 O
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# tsuki-rescue_AO4407A-acheronSymbols
+#
+DEF tsuki-rescue_AO4407A-acheronSymbols Q 0 0 Y N 1 F N
+F0 "Q" 100 50 50 H V L CNN
+F1 "tsuki-rescue_AO4407A-acheronSymbols" 100 -50 50 H V L CNN
+F2 "" 100 100 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+C -35 0 111 0 1 10 N
+C 0 -70 11 0 1 0 F
+C 0 70 11 0 1 0 F
+P 2 0 1 0 -98 0 -90 0 N
+P 2 0 1 0 -70 -70 0 -70 N
+P 2 0 1 10 -70 -50 -70 -90 N
+P 2 0 1 0 -70 0 0 0 N
+P 2 0 1 10 -70 20 -70 -20 N
+P 2 0 1 0 -70 70 0 70 N
+P 2 0 1 10 -70 90 -70 50 N
+P 2 0 1 0 0 -70 0 -100 N
+P 2 0 1 0 0 -70 0 0 N
+P 2 0 1 0 0 100 0 70 N
+P 3 0 1 10 -90 75 -90 -75 -90 -75 N
+P 4 0 1 0 -10 0 -50 -15 -50 15 -10 0 F
+P 4 0 1 0 0 -70 30 -70 30 70 0 70 N
+P 4 0 1 0 10 -20 15 -15 45 -15 50 -10 N
+P 4 0 1 0 30 -15 15 10 45 10 30 -15 N
+X S 1 0 -200 100 U 0 50 1 1 P
+X S 2 0 -200 100 U 0 50 1 1 P
+X S 3 0 -200 100 U 0 50 1 1 P
+X G 4 -300 0 200 R 0 50 1 1 I
+X D 5 0 200 100 D 0 50 1 1 P
+X D 6 0 200 100 D 0 50 1 1 P
+X D 7 0 200 100 D 0 50 1 1 P
+X D 8 0 200 100 D 0 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tsuki-rescue_MXSwitch-acheronSymbols
+#
+DEF tsuki-rescue_MXSwitch-acheronSymbols SW 0 40 Y Y 1 F N
+F0 "SW" 0 0 50 H V C CNN
+F1 "tsuki-rescue_MXSwitch-acheronSymbols" 0 -150 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 250 250 -250 0 1 0 N
+P 2 0 1 0 -250 0 -350 0 N
+P 2 0 1 0 0 250 0 350 N
+X Col 1 -350 0 100 R 20 20 1 1 O N
+X Row 2 0 350 100 D 20 20 1 1 I N
+ENDDRAW
+ENDDEF
+#
+# tsuki-rescue_STM32F072-LQFP48-acheronSymbols
+#
+DEF tsuki-rescue_STM32F072-LQFP48-acheronSymbols U 0 40 Y Y 1 F N
 F0 "U" 0 50 79 H V C CNB
-F1 "acheronSymbols_STM32F072-LQFP48" 0 -100 79 H V C CNB
+F1 "tsuki-rescue_STM32F072-LQFP48-acheronSymbols" 0 -100 79 H V C CNB
 F2 "acheron_Components:TQPF-44_10x10mm_P0.8mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -469,11 +554,11 @@ X VDDA 9 -1700 -600 100 R 24 39 1 1 W
 ENDDRAW
 ENDDEF
 #
-# acheronSymbols_TYPE-C-31-M12_13
+# tsuki-rescue_TYPE-C-31-M12_13-acheronSymbols
 #
-DEF acheronSymbols_TYPE-C-31-M12_13 J 0 40 Y Y 1 F N
+DEF tsuki-rescue_TYPE-C-31-M12_13-acheronSymbols J 0 40 Y Y 1 F N
 F0 "J" -50 1400 50 H V L CNN
-F1 "acheronSymbols_TYPE-C-31-M12_13" 400 1300 50 H V R CNN
+F1 "tsuki-rescue_TYPE-C-31-M12_13-acheronSymbols" 400 1300 50 H V R CNN
 F2 "acheronConnectors:TYPE-C-31-M-12" -500 50 50 V I C CNN
 F3 "" 200 50 50 H I C CNN
 $FPLIST
@@ -522,35 +607,6 @@ X D+ B6 600 -400 200 L 50 50 1 1 B
 X D- B7 600 -100 200 L 50 50 1 1 B
 X SBU2 B8 600 -1150 200 L 50 50 1 1 B
 X SHIELD S -300 -1450 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# tsuki-rescue_MXSwitch-acheronSymbols
-#
-DEF tsuki-rescue_MXSwitch-acheronSymbols SW 0 40 Y Y 1 F N
-F0 "SW" 0 0 50 H V C CNN
-F1 "tsuki-rescue_MXSwitch-acheronSymbols" 0 -150 39 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 250 250 -250 0 1 0 N
-P 2 0 1 0 -250 0 -350 0 N
-P 2 0 1 0 0 250 0 350 N
-X Col 1 -350 0 100 R 20 20 1 1 O N
-X Row 2 0 350 100 D 20 20 1 1 I N
 ENDDRAW
 ENDDEF
 #
