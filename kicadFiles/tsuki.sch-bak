@@ -18,21 +18,10 @@ L Device:C_Small CSI1
 U 1 1 5C44CEDC
 P 8475 20600
 F 0 "CSI1" V 8575 20600 39  0000 C CNN
-F 1 "100n" V 8375 20600 31  0000 C CNN
+F 1 "1u" V 8375 20600 31  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8475 20600 50  0001 C CNN
 F 3 "~" H 8475 20600 50  0001 C CNN
 	1    8475 20600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small CSO1
-U 1 1 5C44DAFA
-P 9175 20625
-F 0 "CSO1" V 9275 20625 39  0000 C CNN
-F 1 "100n" V 9050 20625 39  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9175 20625 50  0001 C CNN
-F 3 "~" H 9175 20625 50  0001 C CNN
-	1    9175 20625
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -834,11 +823,11 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	7275 19350 10250 19350
 $Comp
-L Device:D DS1
+L Device:D_Schottky DS1
 U 1 1 5C44EA7A
 P 8825 19775
 F 0 "DS1" V 8794 19854 31  0000 L CNN
-F 1 "1N4148" V 8856 19854 31  0000 L CNN
+F 1 "RB060M-60TR" V 8856 19854 31  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" H 8825 19775 50  0001 C CNN
 F 3 "~" H 8825 19775 50  0001 C CNN
 	1    8825 19775
@@ -1113,11 +1102,11 @@ F 3 "~" H 7875 20250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky DF1
+L Device:D_TVS DF1
 U 1 1 5ECEA097
 P 8100 20425
 F 0 "DF1" H 8050 20250 50  0000 L CNN
-F 1 "RB060M-60TR" H 7975 20325 30  0000 L CNN
+F 1 "SMF9.0CA" H 7975 20325 30  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" H 8100 20425 50  0001 C CNN
 F 3 "~" H 8100 20425 50  0001 C CNN
 	1    8100 20425
@@ -3097,11 +3086,11 @@ F 3 "" H 12050 17600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D DSH1
+L Device:D_Schottky DSH1
 U 1 1 5D48318C
 P 11575 17250
 F 0 "DSH1" V 11544 17329 31  0000 L CNN
-F 1 "1N4007" V 11606 17329 31  0000 L CNN
+F 1 "RB060M-60TR" V 11606 17329 31  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" H 11575 17250 50  0001 C CNN
 F 3 "~" H 11575 17250 50  0001 C CNN
 	1    11575 17250
@@ -3676,11 +3665,11 @@ Wire Notes Line width 20 rgb(255, 123, 0)
 Wire Notes Line width 20 rgb(255, 123, 0)
 	20025 10350 4975 10350
 Text Notes 7300 8150 2    150  ~ 30
-6U Bottom (H for HHKB) (square pads)\n
+6U Bottom (H for HHKB)
 Text Notes 7300 9050 2    150  ~ 30
-6.25U Bottom (D for default ANSI) (rounded square pads)
+6.25U Bottom (D for default ANSI)
 Text Notes 7300 10000 2    150  ~ 30
-7U Bottom (T for Tsangan bottom) (circle pads)
+7U Bottom (T for Tsangan bottom)
 Connection ~ 16525 9000
 Connection ~ 17525 9000
 Wire Notes Line width 20
@@ -3802,5 +3791,16 @@ F 2 "acheron_MountingHoles:MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm" H 2450 17600
 F 3 "~" H 2450 17600 50  0001 C CNN
 	1    2450 17600
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CSO1
+U 1 1 5C44DAFA
+P 9175 20625
+F 0 "CSO1" V 9275 20625 39  0000 C CNN
+F 1 "1u" V 9050 20625 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9175 20625 50  0001 C CNN
+F 3 "~" H 9175 20625 50  0001 C CNN
+	1    9175 20625
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
