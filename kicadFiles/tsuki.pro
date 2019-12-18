@@ -1,4 +1,4 @@
-update=Thu 26 Sep 2019 11:43:47 PM -03
+update=Mon 16 Dec 2019 07:09:42 PM -03
 version=1
 last_client=kicad
 [general]
@@ -248,7 +248,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DiffPair
-Clearance=0.508
+Clearance=0.1524
 TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4

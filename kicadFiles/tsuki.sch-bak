@@ -537,17 +537,6 @@ Wire Wire Line
 Text GLabel 19875 19500 3    50   Input ~ 0
 3.3V
 Connection ~ 19875 19175
-$Comp
-L power:GND #PWR0101
-U 1 1 5DA51D20
-P 19625 19500
-F 0 "#PWR0101" H 19625 19250 50  0001 C CNN
-F 1 "GND" V 19630 19372 50  0000 R CNN
-F 2 "" H 19625 19500 50  0001 C CNN
-F 3 "" H 19625 19500 50  0001 C CNN
-	1    19625 19500
-	1    0    0    -1  
-$EndComp
 Connection ~ 19625 19175
 $Comp
 L Device:C_Small CB2
@@ -571,17 +560,6 @@ Wire Wire Line
 Text GLabel 16125 17900 0    50   Input ~ 0
 3.3V
 $Comp
-L power:GND #PWR0104
-U 1 1 5DBAA68F
-P 16125 17650
-F 0 "#PWR0104" H 16125 17400 50  0001 C CNN
-F 1 "GND" V 16130 17522 50  0000 R CNN
-F 2 "" H 16125 17650 50  0001 C CNN
-F 3 "" H 16125 17650 50  0001 C CNN
-	1    16125 17650
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small CB3
 U 1 1 5DC1D2A1
 P 20400 16075
@@ -602,17 +580,6 @@ Wire Wire Line
 	20400 15950 20400 15975
 Text GLabel 20925 15950 2    50   Input ~ 0
 3.3V
-$Comp
-L power:GND #PWR0107
-U 1 1 5DC1D2AE
-P 20925 16200
-F 0 "#PWR0107" H 20925 15950 50  0001 C CNN
-F 1 "GND" V 20930 16072 50  0000 R CNN
-F 2 "" H 20925 16200 50  0001 C CNN
-F 3 "" H 20925 16200 50  0001 C CNN
-	1    20925 16200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C_Small CB8
 U 1 1 5DC916F5
@@ -637,17 +604,6 @@ Text GLabel 17125 15300 1    50   Input ~ 0
 Wire Wire Line
 	17125 15300 17125 15375
 Connection ~ 17125 15375
-$Comp
-L power:GND #PWR0108
-U 1 1 5DC91702
-P 17375 15300
-F 0 "#PWR0108" H 17375 15050 50  0001 C CNN
-F 1 "GND" V 17380 15172 50  0000 R CNN
-F 2 "" H 17375 15300 50  0001 C CNN
-F 3 "" H 17375 15300 50  0001 C CNN
-	1    17375 15300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	17375 15300 17375 15375
 Connection ~ 17375 15375
@@ -676,17 +632,6 @@ Text Notes 1900 21600 0    50   ~ 10
 [2] AN4080 Application note
 Text Notes 1900 21700 0    50   ~ 0
 https://www.st.com/content/ccc/resource/technical/document/application_note/c9/19/d7/b8/6b/0e/4c/d3/DM00051986.pdf/files/DM00051986.pdf/jcr:content/translations/en.DM00051986.pdf
-$Comp
-L power:GND #PWR0109
-U 1 1 5DF14263
-P 16750 15600
-F 0 "#PWR0109" H 16750 15350 50  0001 C CNN
-F 1 "GND" V 16755 15472 50  0000 R CNN
-F 2 "" H 16750 15600 50  0001 C CNN
-F 3 "" H 16750 15600 50  0001 C CNN
-	1    16750 15600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	16750 15900 16750 15850
 Wire Wire Line
@@ -1614,27 +1559,27 @@ Wire Wire Line
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW28
 U 1 1 5E44A766
-P 21025 6075
-F 0 "SW28" H 20925 6125 50  0000 L CNN
-F 1 "\\|_150" H 21025 6000 60  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 21025 6075 50  0001 C CNN
-F 3 "" H 21025 6075 50  0001 C CNN
-	1    21025 6075
+P 20025 6075
+F 0 "SW28" H 19925 6125 50  0000 L CNN
+F 1 "\\|_150" H 20025 6000 60  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 20025 6075 50  0001 C CNN
+F 3 "" H 20025 6075 50  0001 C CNN
+	1    20025 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D28
 U 1 1 5E44A76C
-P 21025 5575
-F 0 "D28" V 20994 5654 31  0000 L CNN
-F 1 "1N4148" V 21056 5654 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 21025 5575 50  0001 C CNN
-F 3 "~" H 21025 5575 50  0001 C CNN
-	1    21025 5575
+P 20025 5575
+F 0 "D28" V 19994 5654 31  0000 L CNN
+F 1 "1N4148" V 20056 5654 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 20025 5575 50  0001 C CNN
+F 3 "~" H 20025 5575 50  0001 C CNN
+	1    20025 5575
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	20675 6075 20525 6075
+	19675 6075 19525 6075
 Wire Wire Line
 	19025 4450 20025 4450
 Wire Wire Line
@@ -2122,27 +2067,27 @@ Wire Wire Line
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW41
 U 1 1 5E670A2B
-P 20025 6075
-F 0 "SW41" H 19925 6100 30  0000 C CNN
-F 1 "ENTER_225" H 20125 6100 30  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX225" H 20025 6075 50  0001 C CNN
-F 3 "" H 20025 6075 50  0001 C CNN
-	1    20025 6075
+P 21025 6075
+F 0 "SW41" H 20925 6100 30  0000 C CNN
+F 1 "ENTER_225" H 21125 6100 30  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX225" H 21025 6075 50  0001 C CNN
+F 3 "" H 21025 6075 50  0001 C CNN
+	1    21025 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D41
 U 1 1 5E670A31
-P 20025 5575
-F 0 "D41" V 19994 5654 31  0000 L CNN
-F 1 "1N4148" V 20056 5654 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 20025 5575 50  0001 C CNN
-F 3 "~" H 20025 5575 50  0001 C CNN
-	1    20025 5575
+P 21025 5575
+F 0 "D41" V 20994 5654 31  0000 L CNN
+F 1 "1N4148" V 21056 5654 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 21025 5575 50  0001 C CNN
+F 3 "~" H 21025 5575 50  0001 C CNN
+	1    21025 5575
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	19675 6075 19525 6075
+	20675 6075 20525 6075
 Wire Wire Line
 	18525 5100 18525 6075
 Connection ~ 14025 5425
@@ -2163,8 +2108,6 @@ F 3 "~" H 13025 5575 50  0001 C CNN
 	1    13025 5575
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	19525 5100 19525 6075
 Wire Wire Line
 	17525 5100 17525 6075
 Wire Wire Line
@@ -2626,74 +2569,21 @@ Wire Wire Line
 	9025 7375 10025 7375
 Connection ~ 10025 7375
 Wire Wire Line
-	16675 8025 16525 8025
-$Comp
-L Device:D D58
-U 1 1 5E827DA9
-P 17025 7525
-F 0 "D58" V 16994 7604 31  0000 L CNN
-F 1 "1N4148" V 17056 7604 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 17025 7525 50  0001 C CNN
-F 3 "~" H 17025 7525 50  0001 C CNN
-	1    17025 7525
-	0    1    1    0   
-$EndComp
+	20525 8025 20525 9000
 Wire Wire Line
-	17525 7050 17525 8025
-Wire Wire Line
-	17675 8025 17525 8025
-$Comp
-L Device:D D59
-U 1 1 5E827DB7
-P 18025 7525
-F 0 "D59" V 17994 7604 31  0000 L CNN
-F 1 "1N4148" V 18056 7604 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 18025 7525 50  0001 C CNN
-F 3 "~" H 18025 7525 50  0001 C CNN
-	1    18025 7525
-	0    1    1    0   
-$EndComp
-$Comp
-L tsuki-rescue:MXSwitch-acheronSymbols SW59
-U 1 1 5E827DBD
-P 18025 8025
-F 0 "SW59" H 18025 8075 50  0000 C CNN
-F 1 "RGUI_150" H 18025 7950 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 18025 8025 50  0001 C CNN
-F 3 "" H 18025 8025 50  0001 C CNN
-	1    18025 8025
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	18525 7050 18525 8025
-Wire Wire Line
-	18675 8025 18525 8025
-$Comp
-L Device:D D60
-U 1 1 5E827DC5
-P 19025 7525
-F 0 "D60" V 18994 7604 31  0000 L CNN
-F 1 "1N4148" V 19056 7604 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 19025 7525 50  0001 C CNN
-F 3 "~" H 19025 7525 50  0001 C CNN
-	1    19025 7525
-	0    1    1    0   
-$EndComp
+	20675 9000 20525 9000
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW60
 U 1 1 5E827DCB
-P 19025 8025
-F 0 "SW60" H 19025 8075 50  0000 C CNN
-F 1 "RCTRL_150" H 19025 7950 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 19025 8025 50  0001 C CNN
-F 3 "" H 19025 8025 50  0001 C CNN
-	1    19025 8025
+P 21025 9000
+F 0 "SW60" H 21025 9050 50  0000 C CNN
+F 1 "RCTRL_150" H 21025 8925 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 21025 9000 50  0001 C CNN
+F 3 "" H 21025 9000 50  0001 C CNN
+	1    21025 9000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16525 7050 16525 8025
 Connection ~ 14025 7375
-Connection ~ 17025 7375
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW61
 U 1 1 5E8999F7
@@ -2799,9 +2689,9 @@ Text GLabel 11975 15075 0    40   Input ~ 0
 Extra4
 Text GLabel 11975 14975 0    40   Input ~ 0
 Extra3
-Text GLabel 19375 15500 1    50   Input ~ 0
+Text GLabel 19375 15450 1    50   Input ~ 0
 Extra3
-Text GLabel 19625 15500 1    50   Input ~ 0
+Text GLabel 19625 15450 1    50   Input ~ 0
 Extra4
 Wire Wire Line
 	11975 15475 12025 15475
@@ -2819,19 +2709,19 @@ Wire Wire Line
 	19375 15500 19375 15550
 Wire Wire Line
 	19625 15500 19625 15550
-Text GLabel 20275 17200 2    50   Input ~ 0
+Text GLabel 20650 17350 2    50   Input ~ 0
 Extra5
 Wire Wire Line
 	20275 17200 20225 17200
-Text GLabel 20275 17450 2    50   Input ~ 0
+Text GLabel 20650 17600 2    50   Input ~ 0
 Extra6
 Wire Wire Line
 	20275 17450 20225 17450
-Text GLabel 20275 17700 2    50   Input ~ 0
+Text GLabel 20650 17850 2    50   Input ~ 0
 Extra7
 Wire Wire Line
 	20275 17700 20225 17700
-Text GLabel 20275 17950 2    50   Input ~ 0
+Text GLabel 20650 18100 2    50   Input ~ 0
 Extra8
 Wire Wire Line
 	20275 17950 20225 17950
@@ -2859,27 +2749,27 @@ Wire Wire Line
 	11975 15675 12025 15675
 Wire Wire Line
 	12025 15575 11975 15575
-Text GLabel 20275 18200 2    50   Input ~ 0
+Text GLabel 20650 18350 2    50   Input ~ 0
 Extra9
 Wire Wire Line
 	20275 18200 20225 18200
-Text GLabel 20275 18450 2    50   Input ~ 0
+Text GLabel 20650 18600 2    50   Input ~ 0
 Extra10
 Wire Wire Line
 	20275 18450 20225 18450
 Text GLabel 20275 18700 2    50   Input ~ 0
-Extra11
+Col1
 Wire Wire Line
 	20275 18700 20225 18700
-Text GLabel 19375 19050 3    50   Input ~ 0
+Text GLabel 19250 19250 3    50   Input ~ 0
 Extra12
 Wire Wire Line
 	19375 19050 19375 19000
-Text GLabel 18875 19050 3    50   Input ~ 0
+Text GLabel 18750 19250 3    50   Input ~ 0
 Extra14
 Wire Wire Line
 	18875 19050 18875 19000
-Text GLabel 19125 19050 3    50   Input ~ 0
+Text GLabel 19000 19250 3    50   Input ~ 0
 Extra13
 Wire Wire Line
 	19125 19050 19125 19000
@@ -2888,11 +2778,6 @@ Wire Wire Line
 Connection ~ 8025 4450
 Wire Wire Line
 	8025 4450 9025 4450
-Connection ~ 17525 7050
-Connection ~ 18525 7050
-Wire Wire Line
-	17025 7375 18025 7375
-Connection ~ 18025 7375
 Wire Wire Line
 	8675 15150 8750 15150
 Text GLabel 8750 15150 2    50   Input ~ 0
@@ -2908,67 +2793,67 @@ F 3 "" H 8175 15925 50  0001 C CNN
 	1    8175 15925
 	1    0    0    -1  
 $EndComp
-Text GLabel 17375 19050 3    50   Input ~ 0
+Text GLabel 17250 19250 3    50   Input ~ 0
 Col3
 Wire Wire Line
 	17375 19050 17375 19000
-Text GLabel 17125 19050 3    50   Input ~ 0
+Text GLabel 17000 19250 3    50   Input ~ 0
 Col4
 Wire Wire Line
 	17125 19050 17125 19000
-Text GLabel 16725 18650 0    50   Input ~ 0
+Text GLabel 16400 19075 0    50   Input ~ 0
 Col5
 Wire Wire Line
 	16725 18650 16775 18650
-Text GLabel 16725 18400 0    50   Input ~ 0
+Text GLabel 16400 18825 0    50   Input ~ 0
 Col6
 Wire Wire Line
 	16725 18400 16775 18400
-Text GLabel 16725 18150 0    50   Input ~ 0
+Text GLabel 16400 18575 0    50   Input ~ 0
 Col7
 Wire Wire Line
 	16725 18150 16775 18150
-Text GLabel 16725 17150 0    50   Input ~ 0
+Text GLabel 16375 17100 0    50   Input ~ 0
 Col8
 Wire Wire Line
 	16725 17150 16775 17150
-Text GLabel 16725 16900 0    50   Input ~ 0
+Text GLabel 16375 16850 0    50   Input ~ 0
 Col9
 Wire Wire Line
 	16725 16900 16775 16900
-Text GLabel 16725 16650 0    50   Input ~ 0
+Text GLabel 16375 16600 0    50   Input ~ 0
 Col10
 Wire Wire Line
 	16725 16650 16775 16650
-Text GLabel 16725 16400 0    50   Input ~ 0
+Text GLabel 16375 16350 0    50   Input ~ 0
 Col11
 Wire Wire Line
 	16725 16400 16775 16400
-Text GLabel 16725 16150 0    50   Input ~ 0
+Text GLabel 16375 16100 0    50   Input ~ 0
 Col12
 Wire Wire Line
 	16725 16150 16775 16150
-Text GLabel 17625 15500 1    50   Input ~ 0
+Text GLabel 17625 15450 1    50   Input ~ 0
 Col13
 Wire Wire Line
 	17625 15500 17625 15550
-Text GLabel 17625 19050 3    50   Input ~ 0
+Text GLabel 17500 19250 3    50   Input ~ 0
 Col2
 Wire Wire Line
 	17625 19050 17625 19000
-Text GLabel 17875 19050 3    50   Input ~ 0
+Text GLabel 17750 19250 3    50   Input ~ 0
 Row3
 Wire Wire Line
 	17875 19050 17875 19000
-Text GLabel 18125 19050 3    50   Input ~ 0
+Text GLabel 18000 19250 3    50   Input ~ 0
 Row4
 Wire Wire Line
 	18125 19050 18125 19000
-Text GLabel 18625 19050 3    50   Input ~ 0
+Text GLabel 18500 19250 3    50   Input ~ 0
 Row5
 Wire Wire Line
 	18625 19050 18625 19000
-Text GLabel 18375 19050 3    50   Input ~ 0
+Text GLabel 18250 19250 3    50   Input ~ 0
 Col1
 Wire Wire Line
 	18375 19050 18375 19000
@@ -3088,15 +2973,15 @@ Wire Notes Line width 20
 	20575 12450 20575 12700
 Wire Wire Line
 	18625 15500 18625 15550
-Text GLabel 18625 15500 1    50   Input ~ 0
+Text GLabel 18625 15450 1    50   Input ~ 0
 Row2
 Wire Wire Line
 	18375 15500 18375 15550
-Text GLabel 18375 15500 1    50   Input ~ 0
+Text GLabel 18375 15450 1    50   Input ~ 0
 Row1
 Wire Wire Line
 	17875 15500 17875 15550
-Text GLabel 17875 15500 1    50   Input ~ 0
+Text GLabel 17875 15450 1    50   Input ~ 0
 Col14
 Wire Notes Line width 20
 	1950 15850 3950 15850
@@ -3116,9 +3001,9 @@ Text GLabel 11975 14775 0    40   Input ~ 0
 Extra1
 Text GLabel 11975 14875 0    40   Input ~ 0
 Extra2
-Text GLabel 19125 15475 1    40   Input ~ 0
+Text GLabel 19125 15425 1    40   Input ~ 0
 Extra2
-Text GLabel 18875 15475 1    40   Output ~ 0
+Text GLabel 18875 15425 1    40   Output ~ 0
 RGB_3V3
 Wire Wire Line
 	19125 15475 19125 15550
@@ -3208,7 +3093,6 @@ Connection ~ 17525 6075
 Connection ~ 18525 5100
 Connection ~ 18525 6075
 Connection ~ 19525 5100
-Connection ~ 19525 6075
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW65
 U 1 1 5E993FBF
@@ -3221,39 +3105,28 @@ F 3 "" H 21025 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tsuki-rescue:MXSwitch-acheronSymbols SW58
-U 1 1 5E827DAF
-P 17025 8025
-F 0 "SW58" H 17025 8075 50  0000 C CNN
-F 1 "RALT_150" H 17025 7950 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 17025 8025 50  0001 C CNN
-F 3 "" H 17025 8025 50  0001 C CNN
-	1    17025 8025
-	1    0    0    -1  
-$EndComp
-$Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW67
 U 1 1 5D9036EA
-P 20075 6125
-F 0 "SW67" H 19925 6125 30  0000 C CNN
-F 1 "ISO_ENTER" H 20125 6125 30  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX_ISOEnter_Vertical_LED" H 20075 6125 50  0001 C CNN
-F 3 "" H 20075 6125 50  0001 C CNN
-	1    20075 6125
+P 21075 6125
+F 0 "SW67" H 20925 6125 30  0000 C CNN
+F 1 "ISO_ENTER" H 21125 6125 30  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX_ISOEnter_Vertical_LED" H 21075 6125 50  0001 C CNN
+F 3 "" H 21075 6125 50  0001 C CNN
+	1    21075 6125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19675 6075 19675 6125
+	20675 6075 20675 6125
 Wire Wire Line
-	19675 6125 19725 6125
-Connection ~ 19675 6075
+	20675 6125 20725 6125
+Connection ~ 20675 6075
 Wire Wire Line
-	20075 5775 20075 5700
+	21075 5775 21075 5700
 Wire Wire Line
-	20075 5700 20025 5700
+	21075 5700 21025 5700
 Wire Wire Line
-	20025 5700 20025 5725
-Connection ~ 20025 5725
+	21025 5700 21025 5725
+Connection ~ 21025 5725
 Wire Wire Line
 	8525 6075 8525 7050
 Wire Wire Line
@@ -3289,16 +3162,12 @@ Wire Wire Line
 	9025 6400 10025 6400
 Connection ~ 9525 7050
 Connection ~ 13525 7050
-Connection ~ 16525 7050
 Connection ~ 8525 7050
 Wire Wire Line
 	8525 7050 8525 8025
 Connection ~ 9525 6075
 Wire Wire Line
 	20025 3475 21025 3475
-Wire Wire Line
-	20525 6075 20525 7050
-Connection ~ 20525 6075
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW88
 U 1 1 5DC9128E
@@ -3324,8 +3193,6 @@ $EndComp
 Wire Wire Line
 	20675 7050 20525 7050
 Connection ~ 20525 7050
-Wire Wire Line
-	18025 7375 19025 7375
 Wire Wire Line
 	7675 9000 7525 9000
 $Comp
@@ -3367,36 +3234,6 @@ F 3 "" H 10025 9000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9525 8025 9525 9000
-Wire Wire Line
-	16675 9000 16525 9000
-Wire Wire Line
-	17525 8025 17525 9000
-Wire Wire Line
-	17675 9000 17525 9000
-$Comp
-L tsuki-rescue:MXSwitch-acheronSymbols SW83
-U 1 1 5DD9A092
-P 18025 9000
-F 0 "SW83" H 18025 9050 50  0000 C CNN
-F 1 "RGUI_125" H 18025 8925 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 18025 9000 50  0001 C CNN
-F 3 "" H 18025 9000 50  0001 C CNN
-	1    18025 9000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18675 9025 18525 9025
-$Comp
-L tsuki-rescue:MXSwitch-acheronSymbols SW86
-U 1 1 5DD9A0A0
-P 19025 9025
-F 0 "SW86" H 19025 9075 50  0000 C CNN
-F 1 "RCTRL_125" H 19025 8950 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 19025 9025 50  0001 C CNN
-F 3 "" H 19025 9025 50  0001 C CNN
-	1    19025 9025
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D66
 U 1 1 5DD9A0A9
@@ -3421,24 +3258,11 @@ F 3 "" H 16025 9000 50  0001 C CNN
 	1    16025 9000
 	1    0    0    -1  
 $EndComp
-$Comp
-L tsuki-rescue:MXSwitch-acheronSymbols RGUI_125
-U 1 1 5DD9A0BA
-P 17025 9000
-F 0 "RGUI_125" H 17025 9050 50  0000 C CNN
-F 1 "FN_125" H 17025 8925 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 17025 9000 50  0001 C CNN
-F 3 "" H 17025 9000 50  0001 C CNN
-	1    17025 9000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15525 7050 15525 9000
 Connection ~ 15525 7050
 Connection ~ 7525 8025
 Connection ~ 9525 8025
-Connection ~ 16525 8025
-Connection ~ 17525 8025
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW75
 U 1 1 5DD9A079
@@ -3468,29 +3292,29 @@ $EndComp
 Wire Wire Line
 	13675 9975 13525 9975
 Wire Wire Line
-	16675 9975 16525 9975
+	18675 9975 18525 9975
 Wire Wire Line
-	17675 9975 17525 9975
+	19675 9975 19525 9975
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW84
 U 1 1 5E0F3B38
-P 18025 9975
-F 0 "SW84" H 18025 10025 50  0000 C CNN
-F 1 "RGUI_100" H 18025 9900 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX100" H 18025 9975 50  0001 C CNN
-F 3 "" H 18025 9975 50  0001 C CNN
-	1    18025 9975
+P 20025 9975
+F 0 "SW84" H 20025 10025 50  0000 C CNN
+F 1 "RGUI_100" H 20025 9900 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX100" H 20025 9975 50  0001 C CNN
+F 3 "" H 20025 9975 50  0001 C CNN
+	1    20025 9975
 	1    0    0    -1  
 $EndComp
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW81
 U 1 1 5E0F3B4D
-P 17025 9975
-F 0 "SW81" H 17025 10025 50  0000 C CNN
-F 1 "RALT_150" H 17025 9900 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 17025 9975 50  0001 C CNN
-F 3 "" H 17025 9975 50  0001 C CNN
-	1    17025 9975
+P 19025 9975
+F 0 "SW81" H 19025 10025 50  0000 C CNN
+F 1 "RALT_150" H 19025 9900 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 19025 9975 50  0001 C CNN
+F 3 "" H 19025 9975 50  0001 C CNN
+	1    19025 9975
 	1    0    0    -1  
 $EndComp
 Connection ~ 8525 8025
@@ -3499,8 +3323,6 @@ Wire Wire Line
 Wire Wire Line
 	8525 8025 8525 9000
 Connection ~ 8525 9000
-Wire Wire Line
-	16525 8025 16525 9000
 Connection ~ 13525 9000
 Text GLabel 8025 8650 1    50   Input ~ 0
 L1
@@ -3528,43 +3350,21 @@ L6
 Wire Wire Line
 	16075 8650 16025 8650
 Connection ~ 16025 8650
-Text GLabel 17075 7675 2    50   Input ~ 0
-L7
-Wire Wire Line
-	17075 7675 17025 7675
-Connection ~ 17025 7675
-Text GLabel 18075 7675 2    50   Input ~ 0
-L8
-Wire Wire Line
-	18075 7675 18025 7675
-Connection ~ 18025 7675
-Text GLabel 19075 7675 2    50   Input ~ 0
+Text GLabel 21025 8650 1    50   Input ~ 0
 L9
-Wire Wire Line
-	19075 7675 19025 7675
-Connection ~ 19025 7675
 Text GLabel 9025 8650 1    50   Input ~ 0
 L2
 Text GLabel 10025 8650 1    50   Input ~ 0
 L3
-Text GLabel 17025 8650 1    50   Input ~ 0
-L7
-Text GLabel 18025 8650 1    50   Input ~ 0
-L8
 Text GLabel 14025 9625 1    50   Input ~ 0
 L5
 Text GLabel 9025 9625 1    50   Input ~ 0
 L2
-Text GLabel 17025 9625 1    50   Input ~ 0
+Text GLabel 19025 9625 1    50   Input ~ 0
 L7
-Text GLabel 18025 9625 1    50   Input ~ 0
+Text GLabel 20025 9625 1    50   Input ~ 0
 L8
 Connection ~ 20025 6400
-Wire Wire Line
-	19025 5425 20025 5425
-Connection ~ 20025 5425
-Wire Wire Line
-	20025 5425 21025 5425
 Wire Wire Line
 	20525 3125 20525 4125
 Connection ~ 20525 4125
@@ -3572,15 +3372,8 @@ Wire Wire Line
 	20525 4125 20525 5100
 Connection ~ 20525 5100
 Wire Wire Line
-	20525 5100 20525 6075
-Wire Wire Line
-	19025 7375 21025 7375
-Connection ~ 19025 7375
-Wire Wire Line
 	16025 8350 16025 7375
 Connection ~ 16025 7375
-Wire Wire Line
-	16025 7375 17025 7375
 Wire Notes Line width 20 rgb(255, 123, 0)
 	19975 8400 4925 8400
 Wire Notes Line width 20 rgb(255, 123, 0)
@@ -3593,8 +3386,6 @@ Text Notes 7300 9050 2    150  ~ 30
 6.25U Bottom (D for default ANSI)
 Text Notes 7300 10000 2    150  ~ 30
 7U Bottom (T for Tsangan bottom)
-Connection ~ 16525 9000
-Connection ~ 17525 9000
 Wire Notes Line width 20
 	6625 2675 6625 12675
 Wire Notes Line width 20
@@ -3626,13 +3417,8 @@ Text GLabel 7175 7375 0    50   Input ~ 0
 Row5
 Wire Wire Line
 	20525 7050 20525 8025
-Wire Wire Line
-	18525 8025 18525 9025
 Wire Notes Line width 20
 	21800 2675 21800 12675
-Connection ~ 18525 8025
-Text GLabel 19025 8675 1    50   Input ~ 0
-L9
 Connection ~ 9525 9000
 Text GLabel 10025 9625 1    50   Input ~ 0
 L3
@@ -3640,8 +3426,6 @@ Wire Wire Line
 	9675 9975 9525 9975
 Wire Wire Line
 	19025 6400 20025 6400
-Wire Wire Line
-	19525 6075 19525 7050
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW72
 U 1 1 5E0F3B14
@@ -3662,9 +3446,9 @@ Wire Wire Line
 Wire Wire Line
 	13525 9000 13525 9975
 Wire Wire Line
-	16525 9000 16525 9975
+	18525 9000 18525 9975
 Wire Wire Line
-	17525 9000 17525 9975
+	19525 9000 19525 9975
 Wire Wire Line
 	9525 9000 9525 9975
 Wire Wire Line
@@ -6067,14 +5851,929 @@ F 3 "~" H 1400 15475 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Mechanical:MountingHole L?
+L Mechanical:MountingHole L8
 U 1 1 5FB65B89
 P 1400 15675
-F 0 "L?" H 1500 15721 50  0000 L CNN
+F 0 "L8" H 1500 15721 50  0000 L CNN
 F 1 "Warning" H 1500 15630 50  0000 L CNN
 F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 1400 15675 50  0001 C CNN
 F 3 "~" H 1400 15675 50  0001 C CNN
 	1    1400 15675
 	1    0    0    1   
 $EndComp
+$Comp
+L Mechanical:MountingHole L9
+U 1 1 5FB69060
+P 1400 15900
+F 0 "L9" H 1500 15946 50  0000 L CNN
+F 1 "Warning" H 1500 15855 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 1400 15900 50  0001 C CNN
+F 3 "~" H 1400 15900 50  0001 C CNN
+	1    1400 15900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0109
+U 1 1 5E0D84CB
+P 16750 15600
+F 0 "#PWR0109" H 16750 15350 50  0001 C CNN
+F 1 "GNDD" H 16750 15475 30  0000 C CNN
+F 2 "" H 16750 15600 50  0001 C CNN
+F 3 "" H 16750 15600 50  0001 C CNN
+	1    16750 15600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5E0DF435
+P 17375 15300
+F 0 "#PWR0108" H 17375 15050 50  0001 C CNN
+F 1 "GNDD" H 17375 15175 30  0000 C CNN
+F 2 "" H 17375 15300 50  0001 C CNN
+F 3 "" H 17375 15300 50  0001 C CNN
+	1    17375 15300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0151
+U 1 1 5E0E419D
+P 15875 15550
+F 0 "#PWR0151" H 15875 15300 50  0001 C CNN
+F 1 "GNDD" H 15875 15425 30  0000 C CNN
+F 2 "" H 15875 15550 50  0001 C CNN
+F 3 "" H 15875 15550 50  0001 C CNN
+	1    15875 15550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 5E0E73C5
+P 15875 15750
+F 0 "#PWR0152" H 15875 15500 50  0001 C CNN
+F 1 "GND" H 15875 15625 30  0000 C CNN
+F 2 "" H 15875 15750 50  0001 C CNN
+F 3 "" H 15875 15750 50  0001 C CNN
+	1    15875 15750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RGND1
+U 1 1 5E0F3A39
+P 15875 15650
+F 0 "RGND1" H 15934 15681 31  0000 L CNN
+F 1 "R01" H 15934 15619 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H 15875 15650 50  0001 C CNN
+F 3 "~" H 15875 15650 50  0001 C CNN
+	1    15875 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5E0F9566
+P 16125 17650
+F 0 "#PWR0101" H 16125 17400 50  0001 C CNN
+F 1 "GNDD" H 16125 17525 30  0000 C CNN
+F 2 "" H 16125 17650 50  0001 C CNN
+F 3 "" H 16125 17650 50  0001 C CNN
+	1    16125 17650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0104
+U 1 1 5E0FC62E
+P 19625 19500
+F 0 "#PWR0104" H 19625 19250 50  0001 C CNN
+F 1 "GNDD" H 19625 19375 30  0000 C CNN
+F 2 "" H 19625 19500 50  0001 C CNN
+F 3 "" H 19625 19500 50  0001 C CNN
+	1    19625 19500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5E0FF907
+P 20925 16200
+F 0 "#PWR0107" H 20925 15950 50  0001 C CNN
+F 1 "GNDD" H 20925 16075 30  0000 C CNN
+F 2 "" H 20925 16200 50  0001 C CNN
+F 3 "" H 20925 16200 50  0001 C CNN
+	1    20925 16200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small RL15
+U 1 1 5E1A2D85
+P -6425 13525
+F 0 "RL15" H -6366 13556 31  0000 L CNN
+F 1 "420R" H -6366 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -6425 13525 50  0001 C CNN
+F 3 "~" H -6425 13525 50  0001 C CNN
+	1    -6425 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED33
+U 1 1 5E1A2D8B
+P -6425 13800
+F 0 "LED33" H -6425 13725 20  0000 C CNN
+F 1 "LED" H -6425 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -6425 13800 50  0001 C CNN
+F 3 "" H -6425 13800 50  0001 C CNN
+	1    -6425 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5E1A2D91
+P -6425 13975
+F 0 "#PWR0153" H -6425 13725 50  0001 C CNN
+F 1 "GND" H -6420 13816 31  0000 C CNN
+F 2 "" H -6425 13975 50  0001 C CNN
+F 3 "" H -6425 13975 50  0001 C CNN
+	1    -6425 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6425 13625 -6425 13650
+Wire Wire Line
+	-6425 13950 -6425 13975
+$Comp
+L Device:R_Small RL33
+U 1 1 5E1A2D99
+P -6150 13525
+F 0 "RL33" H -6091 13556 31  0000 L CNN
+F 1 "420R" H -6091 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -6150 13525 50  0001 C CNN
+F 3 "~" H -6150 13525 50  0001 C CNN
+	1    -6150 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED34
+U 1 1 5E1A2D9F
+P -6150 13800
+F 0 "LED34" H -6150 13725 20  0000 C CNN
+F 1 "LED" H -6150 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -6150 13800 50  0001 C CNN
+F 3 "" H -6150 13800 50  0001 C CNN
+	1    -6150 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 5E1A2DA5
+P -6150 13975
+F 0 "#PWR0154" H -6150 13725 50  0001 C CNN
+F 1 "GND" H -6145 13816 31  0000 C CNN
+F 2 "" H -6150 13975 50  0001 C CNN
+F 3 "" H -6150 13975 50  0001 C CNN
+	1    -6150 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6150 13625 -6150 13650
+Wire Wire Line
+	-6150 13950 -6150 13975
+$Comp
+L Device:R_Small RL34
+U 1 1 5E1A2DAD
+P -5875 13525
+F 0 "RL34" H -5816 13556 31  0000 L CNN
+F 1 "420R" H -5816 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -5875 13525 50  0001 C CNN
+F 3 "~" H -5875 13525 50  0001 C CNN
+	1    -5875 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED35
+U 1 1 5E1A2DB3
+P -5875 13800
+F 0 "LED35" H -5875 13725 20  0000 C CNN
+F 1 "LED" H -5875 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -5875 13800 50  0001 C CNN
+F 3 "" H -5875 13800 50  0001 C CNN
+	1    -5875 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 5E1A2DB9
+P -5875 13975
+F 0 "#PWR0155" H -5875 13725 50  0001 C CNN
+F 1 "GND" H -5870 13816 31  0000 C CNN
+F 2 "" H -5875 13975 50  0001 C CNN
+F 3 "" H -5875 13975 50  0001 C CNN
+	1    -5875 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5875 13625 -5875 13650
+Wire Wire Line
+	-5875 13950 -5875 13975
+$Comp
+L Device:R_Small RL35
+U 1 1 5E1A2DC1
+P -5600 13525
+F 0 "RL35" H -5541 13556 31  0000 L CNN
+F 1 "420R" H -5541 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -5600 13525 50  0001 C CNN
+F 3 "~" H -5600 13525 50  0001 C CNN
+	1    -5600 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED36
+U 1 1 5E1A2DC7
+P -5600 13800
+F 0 "LED36" H -5600 13725 20  0000 C CNN
+F 1 "LED" H -5600 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -5600 13800 50  0001 C CNN
+F 3 "" H -5600 13800 50  0001 C CNN
+	1    -5600 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 5E1A2DCD
+P -5600 13975
+F 0 "#PWR0156" H -5600 13725 50  0001 C CNN
+F 1 "GND" H -5595 13816 31  0000 C CNN
+F 2 "" H -5600 13975 50  0001 C CNN
+F 3 "" H -5600 13975 50  0001 C CNN
+	1    -5600 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5600 13625 -5600 13650
+Wire Wire Line
+	-5600 13950 -5600 13975
+$Comp
+L Device:R_Small RL36
+U 1 1 5E1A2DD5
+P -5325 13525
+F 0 "RL36" H -5266 13556 31  0000 L CNN
+F 1 "420R" H -5266 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -5325 13525 50  0001 C CNN
+F 3 "~" H -5325 13525 50  0001 C CNN
+	1    -5325 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED37
+U 1 1 5E1A2DDB
+P -5325 13800
+F 0 "LED37" H -5325 13725 20  0000 C CNN
+F 1 "LED" H -5325 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -5325 13800 50  0001 C CNN
+F 3 "" H -5325 13800 50  0001 C CNN
+	1    -5325 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 5E1A2DE1
+P -5325 13975
+F 0 "#PWR0157" H -5325 13725 50  0001 C CNN
+F 1 "GND" H -5320 13816 31  0000 C CNN
+F 2 "" H -5325 13975 50  0001 C CNN
+F 3 "" H -5325 13975 50  0001 C CNN
+	1    -5325 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5325 13625 -5325 13650
+Wire Wire Line
+	-5325 13950 -5325 13975
+$Comp
+L Device:R_Small RL37
+U 1 1 5E1A2DE9
+P -5050 13525
+F 0 "RL37" H -4991 13556 31  0000 L CNN
+F 1 "420R" H -4991 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -5050 13525 50  0001 C CNN
+F 3 "~" H -5050 13525 50  0001 C CNN
+	1    -5050 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED38
+U 1 1 5E1A2DEF
+P -5050 13800
+F 0 "LED38" H -5050 13725 20  0000 C CNN
+F 1 "LED" H -5050 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -5050 13800 50  0001 C CNN
+F 3 "" H -5050 13800 50  0001 C CNN
+	1    -5050 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 5E1A2DF5
+P -5050 13975
+F 0 "#PWR0158" H -5050 13725 50  0001 C CNN
+F 1 "GND" H -5045 13816 31  0000 C CNN
+F 2 "" H -5050 13975 50  0001 C CNN
+F 3 "" H -5050 13975 50  0001 C CNN
+	1    -5050 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5050 13625 -5050 13650
+Wire Wire Line
+	-5050 13950 -5050 13975
+$Comp
+L Device:R_Small RL38
+U 1 1 5E1A2DFD
+P -4775 13525
+F 0 "RL38" H -4716 13556 31  0000 L CNN
+F 1 "420R" H -4716 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -4775 13525 50  0001 C CNN
+F 3 "~" H -4775 13525 50  0001 C CNN
+	1    -4775 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED39
+U 1 1 5E1A2E03
+P -4775 13800
+F 0 "LED39" H -4775 13725 20  0000 C CNN
+F 1 "LED" H -4775 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -4775 13800 50  0001 C CNN
+F 3 "" H -4775 13800 50  0001 C CNN
+	1    -4775 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 5E1A2E09
+P -4775 13975
+F 0 "#PWR0159" H -4775 13725 50  0001 C CNN
+F 1 "GND" H -4770 13816 31  0000 C CNN
+F 2 "" H -4775 13975 50  0001 C CNN
+F 3 "" H -4775 13975 50  0001 C CNN
+	1    -4775 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4775 13625 -4775 13650
+Wire Wire Line
+	-4775 13950 -4775 13975
+$Comp
+L Device:R_Small RL39
+U 1 1 5E1A2E11
+P -4500 13525
+F 0 "RL39" H -4441 13556 31  0000 L CNN
+F 1 "420R" H -4441 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -4500 13525 50  0001 C CNN
+F 3 "~" H -4500 13525 50  0001 C CNN
+	1    -4500 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED40
+U 1 1 5E1A2E17
+P -4500 13800
+F 0 "LED40" H -4500 13725 20  0000 C CNN
+F 1 "LED" H -4500 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -4500 13800 50  0001 C CNN
+F 3 "" H -4500 13800 50  0001 C CNN
+	1    -4500 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 5E1A2E1D
+P -4500 13975
+F 0 "#PWR0160" H -4500 13725 50  0001 C CNN
+F 1 "GND" H -4495 13816 31  0000 C CNN
+F 2 "" H -4500 13975 50  0001 C CNN
+F 3 "" H -4500 13975 50  0001 C CNN
+	1    -4500 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4500 13625 -4500 13650
+Wire Wire Line
+	-4500 13950 -4500 13975
+$Comp
+L Device:R_Small RL40
+U 1 1 5E1A2E25
+P -4225 13525
+F 0 "RL40" H -4166 13556 31  0000 L CNN
+F 1 "420R" H -4166 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -4225 13525 50  0001 C CNN
+F 3 "~" H -4225 13525 50  0001 C CNN
+	1    -4225 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED41
+U 1 1 5E1A2E2B
+P -4225 13800
+F 0 "LED41" H -4225 13725 20  0000 C CNN
+F 1 "LED" H -4225 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -4225 13800 50  0001 C CNN
+F 3 "" H -4225 13800 50  0001 C CNN
+	1    -4225 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 5E1A2E31
+P -4225 13975
+F 0 "#PWR0161" H -4225 13725 50  0001 C CNN
+F 1 "GND" H -4220 13816 31  0000 C CNN
+F 2 "" H -4225 13975 50  0001 C CNN
+F 3 "" H -4225 13975 50  0001 C CNN
+	1    -4225 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4225 13625 -4225 13650
+Wire Wire Line
+	-4225 13950 -4225 13975
+$Comp
+L Device:R_Small RL41
+U 1 1 5E1A2E39
+P -3950 13525
+F 0 "RL41" H -3891 13556 31  0000 L CNN
+F 1 "420R" H -3891 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -3950 13525 50  0001 C CNN
+F 3 "~" H -3950 13525 50  0001 C CNN
+	1    -3950 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED42
+U 1 1 5E1A2E3F
+P -3950 13800
+F 0 "LED42" H -3950 13725 20  0000 C CNN
+F 1 "LED" H -3950 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -3950 13800 50  0001 C CNN
+F 3 "" H -3950 13800 50  0001 C CNN
+	1    -3950 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 5E1A2E45
+P -3950 13975
+F 0 "#PWR0162" H -3950 13725 50  0001 C CNN
+F 1 "GND" H -3945 13816 31  0000 C CNN
+F 2 "" H -3950 13975 50  0001 C CNN
+F 3 "" H -3950 13975 50  0001 C CNN
+	1    -3950 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3950 13625 -3950 13650
+Wire Wire Line
+	-3950 13950 -3950 13975
+$Comp
+L Device:R_Small RL42
+U 1 1 5E1A2E4D
+P -3675 13525
+F 0 "RL42" H -3616 13556 31  0000 L CNN
+F 1 "420R" H -3616 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -3675 13525 50  0001 C CNN
+F 3 "~" H -3675 13525 50  0001 C CNN
+	1    -3675 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED43
+U 1 1 5E1A2E53
+P -3675 13800
+F 0 "LED43" H -3675 13725 20  0000 C CNN
+F 1 "LED" H -3675 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -3675 13800 50  0001 C CNN
+F 3 "" H -3675 13800 50  0001 C CNN
+	1    -3675 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 5E1A2E59
+P -3675 13975
+F 0 "#PWR0163" H -3675 13725 50  0001 C CNN
+F 1 "GND" H -3670 13816 31  0000 C CNN
+F 2 "" H -3675 13975 50  0001 C CNN
+F 3 "" H -3675 13975 50  0001 C CNN
+	1    -3675 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3675 13625 -3675 13650
+Wire Wire Line
+	-3675 13950 -3675 13975
+$Comp
+L Device:R_Small RL43
+U 1 1 5E1A2E61
+P -3400 13525
+F 0 "RL43" H -3341 13556 31  0000 L CNN
+F 1 "420R" H -3341 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -3400 13525 50  0001 C CNN
+F 3 "~" H -3400 13525 50  0001 C CNN
+	1    -3400 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED44
+U 1 1 5E1A2E67
+P -3400 13800
+F 0 "LED44" H -3400 13725 20  0000 C CNN
+F 1 "LED" H -3400 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -3400 13800 50  0001 C CNN
+F 3 "" H -3400 13800 50  0001 C CNN
+	1    -3400 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0164
+U 1 1 5E1A2E6D
+P -3400 13975
+F 0 "#PWR0164" H -3400 13725 50  0001 C CNN
+F 1 "GND" H -3395 13816 31  0000 C CNN
+F 2 "" H -3400 13975 50  0001 C CNN
+F 3 "" H -3400 13975 50  0001 C CNN
+	1    -3400 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3400 13625 -3400 13650
+Wire Wire Line
+	-3400 13950 -3400 13975
+$Comp
+L Device:R_Small RL44
+U 1 1 5E1A2E75
+P -3125 13525
+F 0 "RL44" H -3066 13556 31  0000 L CNN
+F 1 "420R" H -3066 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -3125 13525 50  0001 C CNN
+F 3 "~" H -3125 13525 50  0001 C CNN
+	1    -3125 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED45
+U 1 1 5E1A2E7B
+P -3125 13800
+F 0 "LED45" H -3125 13725 20  0000 C CNN
+F 1 "LED" H -3125 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -3125 13800 50  0001 C CNN
+F 3 "" H -3125 13800 50  0001 C CNN
+	1    -3125 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0165
+U 1 1 5E1A2E81
+P -3125 13975
+F 0 "#PWR0165" H -3125 13725 50  0001 C CNN
+F 1 "GND" H -3120 13816 31  0000 C CNN
+F 2 "" H -3125 13975 50  0001 C CNN
+F 3 "" H -3125 13975 50  0001 C CNN
+	1    -3125 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3125 13625 -3125 13650
+Wire Wire Line
+	-3125 13950 -3125 13975
+$Comp
+L Device:R_Small RL45
+U 1 1 5E1A2E89
+P -2850 13525
+F 0 "RL45" H -2791 13556 31  0000 L CNN
+F 1 "420R" H -2791 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -2850 13525 50  0001 C CNN
+F 3 "~" H -2850 13525 50  0001 C CNN
+	1    -2850 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED46
+U 1 1 5E1A2E8F
+P -2850 13800
+F 0 "LED46" H -2850 13725 20  0000 C CNN
+F 1 "LED" H -2850 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -2850 13800 50  0001 C CNN
+F 3 "" H -2850 13800 50  0001 C CNN
+	1    -2850 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 5E1A2E95
+P -2850 13975
+F 0 "#PWR0166" H -2850 13725 50  0001 C CNN
+F 1 "GND" H -2845 13816 31  0000 C CNN
+F 2 "" H -2850 13975 50  0001 C CNN
+F 3 "" H -2850 13975 50  0001 C CNN
+	1    -2850 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2850 13625 -2850 13650
+Wire Wire Line
+	-2850 13950 -2850 13975
+$Comp
+L Device:R_Small RL46
+U 1 1 5E1A2E9D
+P -2575 13525
+F 0 "RL46" H -2516 13556 31  0000 L CNN
+F 1 "420R" H -2516 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -2575 13525 50  0001 C CNN
+F 3 "~" H -2575 13525 50  0001 C CNN
+	1    -2575 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED47
+U 1 1 5E1A2EA3
+P -2575 13800
+F 0 "LED47" H -2575 13725 20  0000 C CNN
+F 1 "LED" H -2575 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -2575 13800 50  0001 C CNN
+F 3 "" H -2575 13800 50  0001 C CNN
+	1    -2575 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0167
+U 1 1 5E1A2EA9
+P -2575 13975
+F 0 "#PWR0167" H -2575 13725 50  0001 C CNN
+F 1 "GND" H -2570 13816 31  0000 C CNN
+F 2 "" H -2575 13975 50  0001 C CNN
+F 3 "" H -2575 13975 50  0001 C CNN
+	1    -2575 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2575 13625 -2575 13650
+Wire Wire Line
+	-2575 13950 -2575 13975
+Wire Wire Line
+	-2575 13425 -2575 13375
+Wire Wire Line
+	-2575 13375 -2850 13375
+Connection ~ -6425 13375
+Wire Wire Line
+	-6425 13375 -6425 13425
+Wire Wire Line
+	-6150 13375 -6150 13425
+Connection ~ -6150 13375
+Wire Wire Line
+	-6150 13375 -6425 13375
+Wire Wire Line
+	-5875 13375 -5875 13425
+Connection ~ -5875 13375
+Wire Wire Line
+	-5875 13375 -6150 13375
+Wire Wire Line
+	-5600 13375 -5600 13425
+Connection ~ -5600 13375
+Wire Wire Line
+	-5600 13375 -5875 13375
+Wire Wire Line
+	-5325 13375 -5325 13425
+Wire Wire Line
+	-5050 13375 -5050 13425
+Wire Wire Line
+	-4775 13375 -4775 13425
+Wire Wire Line
+	-4500 13375 -4500 13425
+Wire Wire Line
+	-4225 13375 -4225 13425
+Wire Wire Line
+	-3950 13375 -3950 13425
+Wire Wire Line
+	-3675 13375 -3675 13425
+Wire Wire Line
+	-3400 13375 -3400 13425
+Wire Wire Line
+	-3125 13375 -3125 13425
+Wire Wire Line
+	-2850 13375 -2850 13425
+Connection ~ -2850 13375
+Wire Wire Line
+	-2850 13375 -3125 13375
+Connection ~ -3125 13375
+Wire Wire Line
+	-3125 13375 -3400 13375
+Connection ~ -3400 13375
+Wire Wire Line
+	-3400 13375 -3675 13375
+Connection ~ -3675 13375
+Wire Wire Line
+	-3675 13375 -3950 13375
+Connection ~ -3950 13375
+Wire Wire Line
+	-3950 13375 -4225 13375
+Connection ~ -4775 13375
+Wire Wire Line
+	-4775 13375 -5050 13375
+Connection ~ -4500 13375
+Wire Wire Line
+	-4500 13375 -4775 13375
+Connection ~ -5050 13375
+Wire Wire Line
+	-5050 13375 -5325 13375
+Connection ~ -5325 13375
+Wire Wire Line
+	-5325 13375 -5600 13375
+Connection ~ -4225 13375
+Wire Wire Line
+	-4500 13375 -4225 13375
+$Comp
+L Device:R_Small RL47
+U 1 1 5E1A2EDC
+P -2300 13525
+F 0 "RL47" H -2241 13556 31  0000 L CNN
+F 1 "420R" H -2241 13494 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H -2300 13525 50  0001 C CNN
+F 3 "~" H -2300 13525 50  0001 C CNN
+	1    -2300 13525
+	1    0    0    1   
+$EndComp
+$Comp
+L tsuki-rescue:LED-acheronSymbols LED48
+U 1 1 5E1A2EE2
+P -2300 13800
+F 0 "LED48" H -2300 13725 20  0000 C CNN
+F 1 "LED" H -2300 13875 20  0000 C CNN
+F 2 "acheron_Components:LED_THT_2.54mm" H -2300 13800 50  0001 C CNN
+F 3 "" H -2300 13800 50  0001 C CNN
+	1    -2300 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5E1A2EE8
+P -2300 13975
+F 0 "#PWR0168" H -2300 13725 50  0001 C CNN
+F 1 "GND" H -2295 13816 31  0000 C CNN
+F 2 "" H -2300 13975 50  0001 C CNN
+F 3 "" H -2300 13975 50  0001 C CNN
+	1    -2300 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2300 13625 -2300 13650
+Wire Wire Line
+	-2300 13950 -2300 13975
+Wire Wire Line
+	-2300 13425 -2300 13375
+Wire Wire Line
+	-2300 13375 -2575 13375
+Wire Wire Line
+	-6675 12375 -6675 13375
+Wire Wire Line
+	-6675 13375 -6425 13375
+Text GLabel 21025 9650 1    50   Input ~ 0
+L9
+Wire Wire Line
+	20525 9000 20525 10000
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW86
+U 1 1 5DD9A0A0
+P 21025 10000
+F 0 "SW86" H 21025 10050 50  0000 C CNN
+F 1 "RCTRL_125" H 21025 9925 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX125" H 21025 10000 50  0001 C CNN
+F 3 "" H 21025 10000 50  0001 C CNN
+	1    21025 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20675 10000 20525 10000
+Connection ~ 20525 8025
+Connection ~ 20525 9000
+Connection ~ 20025 7675
+Wire Wire Line
+	20075 7675 20025 7675
+Text GLabel 20075 7675 2    50   Input ~ 0
+L8
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW59
+U 1 1 5E827DBD
+P 20025 8025
+F 0 "SW59" H 20025 8075 50  0000 C CNN
+F 1 "RGUI_150" H 20025 7950 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 20025 8025 50  0001 C CNN
+F 3 "" H 20025 8025 50  0001 C CNN
+	1    20025 8025
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 5E827DB7
+P 20025 7525
+F 0 "D59" V 19994 7604 31  0000 L CNN
+F 1 "1N4148" V 20056 7604 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 20025 7525 50  0001 C CNN
+F 3 "~" H 20025 7525 50  0001 C CNN
+	1    20025 7525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19675 8025 19525 8025
+Wire Wire Line
+	19525 7050 19525 8025
+Connection ~ 19525 8025
+Text GLabel 20025 8650 1    50   Input ~ 0
+L8
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW83
+U 1 1 5DD9A092
+P 20025 9000
+F 0 "SW83" H 20025 9050 50  0000 C CNN
+F 1 "RGUI_125" H 20025 8925 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX125" H 20025 9000 50  0001 C CNN
+F 3 "" H 20025 9000 50  0001 C CNN
+	1    20025 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19675 9000 19525 9000
+Wire Wire Line
+	19525 8025 19525 9000
+Connection ~ 19525 7050
+Connection ~ 20025 7375
+Wire Wire Line
+	20025 7375 21025 7375
+Connection ~ 19525 9000
+Connection ~ 19025 7675
+Wire Wire Line
+	19075 7675 19025 7675
+Text GLabel 19075 7675 2    50   Input ~ 0
+L7
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW58
+U 1 1 5E827DAF
+P 19025 8025
+F 0 "SW58" H 19025 8075 50  0000 C CNN
+F 1 "RALT_150" H 19025 7950 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 19025 8025 50  0001 C CNN
+F 3 "" H 19025 8025 50  0001 C CNN
+	1    19025 8025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18525 7050 18525 8025
+$Comp
+L Device:D D58
+U 1 1 5E827DA9
+P 19025 7525
+F 0 "D58" V 18994 7604 31  0000 L CNN
+F 1 "1N4148" V 19056 7604 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 19025 7525 50  0001 C CNN
+F 3 "~" H 19025 7525 50  0001 C CNN
+	1    19025 7525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18675 8025 18525 8025
+Text GLabel 19025 8650 1    50   Input ~ 0
+L7
+Wire Wire Line
+	18525 8025 18525 9000
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols RGUI_125
+U 1 1 5DD9A0BA
+P 19025 9000
+F 0 "RGUI_125" H 19025 9050 50  0000 C CNN
+F 1 "FN_125" H 19025 8925 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX125" H 19025 9000 50  0001 C CNN
+F 3 "" H 19025 9000 50  0001 C CNN
+	1    19025 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18675 9000 18525 9000
+Connection ~ 18525 7050
+Connection ~ 19025 7375
+Wire Wire Line
+	19025 7375 20025 7375
+Wire Wire Line
+	16025 7375 19025 7375
+Connection ~ 18525 8025
+Connection ~ 18525 9000
+Wire Wire Line
+	19525 5100 19525 6075
+Wire Wire Line
+	19025 5425 20025 5425
+Connection ~ 19525 6075
+Wire Wire Line
+	19525 6075 19525 7050
+Connection ~ 20025 5425
+Wire Wire Line
+	20025 5425 21025 5425
+Wire Wire Line
+	20525 5100 20525 6075
+Connection ~ 20525 6075
+Wire Wire Line
+	20525 6075 20525 7050
 $EndSCHEMATC
