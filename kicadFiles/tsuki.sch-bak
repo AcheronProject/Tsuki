@@ -66,10 +66,10 @@ Wire Wire Line
 Wire Wire Line
 	9025 20975 9025 20900
 $Comp
-L Switch:SW_Push SWRST1
+L Switch:SW_Push SWR1
 U 1 1 5E070BED
 P 8100 18150
-F 0 "SWRST1" H 8100 18350 31  0000 C CNN
+F 0 "SWR1" H 8100 18350 31  0000 C CNN
 F 1 "SW_Push" H 8100 18329 31  0001 C CNN
 F 2 "acheron_Hardware:smdPushBtn" H 8100 18350 50  0001 C CNN
 F 3 "" H 8100 18350 50  0001 C CNN
@@ -77,10 +77,10 @@ F 3 "" H 8100 18350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D DRST1
+L Device:D DR1
 U 1 1 5E071566
 P 8600 18150
-F 0 "DRST1" V 8569 18229 31  0000 L CNN
+F 0 "DR1" V 8569 18229 31  0000 L CNN
 F 1 "1N4148" V 8631 18229 31  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" H 8600 18150 50  0001 C CNN
 F 3 "~" H 8600 18150 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "~" H 8600 18150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RRST1
+L Device:R_Small RR1
 U 1 1 5E07225E
 P 8875 18350
-F 0 "RRST1" V 8800 18275 31  0000 L CNN
+F 0 "RR1" V 8800 18275 31  0000 L CNN
 F 1 "100k" V 8875 18300 31  0000 L CNN
 F 2 "acheron_Components:R_SMD_1206" H 8875 18350 50  0001 C CNN
 F 3 "~" H 8875 18350 50  0001 C CNN
@@ -99,10 +99,10 @@ F 3 "~" H 8875 18350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CRST1
+L Device:C_Small CR1
 U 1 1 5E072855
 P 9025 18350
-F 0 "CRST1" H 8975 18275 31  0000 R CNN
+F 0 "CR1" H 8975 18275 31  0000 R CNN
 F 1 "10u" H 9000 18425 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9025 18350 50  0001 C CNN
 F 3 "~" H 9025 18350 50  0001 C CNN
@@ -110,10 +110,10 @@ F 3 "~" H 9025 18350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CRST2
+L Device:C_Small CR2
 U 1 1 5E0C1B45
 P 9025 17400
-F 0 "CRST2" H 9225 17350 31  0000 R CNN
+F 0 "CR2" H 9225 17350 31  0000 R CNN
 F 1 "4.7n" H 9150 17475 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9025 17400 50  0001 C CNN
 F 3 "~" H 9025 17400 50  0001 C CNN
@@ -2689,10 +2689,6 @@ Text GLabel 11975 15075 0    40   Input ~ 0
 Extra4
 Text GLabel 11975 14975 0    40   Input ~ 0
 Extra3
-Text GLabel 19375 15450 1    50   Input ~ 0
-Extra3
-Text GLabel 19625 15450 1    50   Input ~ 0
-Extra4
 Wire Wire Line
 	11975 15475 12025 15475
 Wire Wire Line
@@ -2713,16 +2709,10 @@ Text GLabel 17875 19050 3    50   Output ~ 0
 LED_PWM
 Wire Wire Line
 	20275 17200 20225 17200
-Text GLabel 20650 17600 2    50   Input ~ 0
-Extra6
 Wire Wire Line
 	20275 17450 20225 17450
-Text GLabel 20650 17850 2    50   Input ~ 0
-Extra7
 Wire Wire Line
 	20275 17700 20225 17700
-Text GLabel 20650 18100 2    50   Input ~ 0
-Extra8
 Wire Wire Line
 	20275 17950 20225 17950
 Text GLabel 11975 16075 0    40   Input ~ 0
@@ -2749,28 +2739,18 @@ Wire Wire Line
 	11975 15675 12025 15675
 Wire Wire Line
 	12025 15575 11975 15575
-Text GLabel 20650 18350 2    50   Input ~ 0
-Extra9
 Wire Wire Line
 	20275 18200 20225 18200
-Text GLabel 20650 18600 2    50   Input ~ 0
-Extra10
 Wire Wire Line
 	20275 18450 20225 18450
 Text GLabel 20275 18700 2    50   Input ~ 0
 Col1
 Wire Wire Line
 	20275 18700 20225 18700
-Text GLabel 19250 19250 3    50   Input ~ 0
-Extra12
 Wire Wire Line
 	19375 19050 19375 19000
-Text GLabel 18750 19250 3    50   Input ~ 0
-Extra14
 Wire Wire Line
 	18875 19050 18875 19000
-Text GLabel 19000 19250 3    50   Input ~ 0
-Extra13
 Wire Wire Line
 	19125 19050 19125 19000
 Wire Wire Line
@@ -2793,68 +2773,46 @@ F 3 "" H 8175 15925 50  0001 C CNN
 	1    8175 15925
 	1    0    0    -1  
 $EndComp
-Text GLabel 17250 19250 3    50   Input ~ 0
-Col3
-Wire Wire Line
-	17375 19050 17375 19000
-Text GLabel 17000 19250 3    50   Input ~ 0
-Col4
-Wire Wire Line
-	17125 19050 17125 19000
-Text GLabel 16400 19075 0    50   Input ~ 0
-Col5
-Wire Wire Line
-	16725 18650 16775 18650
-Text GLabel 16400 18825 0    50   Input ~ 0
-Col6
-Wire Wire Line
-	16725 18400 16775 18400
-Text GLabel 16400 18575 0    50   Input ~ 0
-Col7
-Wire Wire Line
-	16725 18150 16775 18150
-Text GLabel 16375 17100 0    50   Input ~ 0
-Col8
-Wire Wire Line
-	16725 17150 16775 17150
-Text GLabel 16375 16850 0    50   Input ~ 0
-Col9
-Wire Wire Line
-	16725 16900 16775 16900
-Text GLabel 16375 16600 0    50   Input ~ 0
-Col10
-Wire Wire Line
-	16725 16650 16775 16650
-Text GLabel 16375 16350 0    50   Input ~ 0
-Col11
-Wire Wire Line
-	16725 16400 16775 16400
-Text GLabel 16375 16100 0    50   Input ~ 0
-Col12
-Wire Wire Line
-	16725 16150 16775 16150
-Text GLabel 17625 15450 1    50   Input ~ 0
+Text GLabel 17625 19050 3    50   Input ~ 0
 Col13
 Wire Wire Line
-	17625 15500 17625 15550
-Text GLabel 17500 19250 3    50   Input ~ 0
-Col2
-Wire Wire Line
-	17625 19050 17625 19000
-Text GLabel 17750 19250 3    50   Input ~ 0
+	17375 19050 17375 19000
+Text GLabel 17125 19050 3    50   Input ~ 0
 Row3
 Wire Wire Line
+	17125 19050 17125 19000
+Wire Wire Line
+	16725 18650 16775 18650
+Text GLabel 16725 16400 0    50   Input ~ 0
+Col8
+Wire Wire Line
+	16725 18400 16775 18400
+Wire Wire Line
+	16725 18150 16775 18150
+Wire Wire Line
+	16725 17150 16775 17150
+Wire Wire Line
+	16725 16900 16775 16900
+Wire Wire Line
+	16725 16650 16775 16650
+Wire Wire Line
+	16725 16400 16775 16400
+Wire Wire Line
+	16725 16150 16775 16150
+Wire Wire Line
+	17625 15500 17625 15550
+Text GLabel 18125 19050 3    50   Input ~ 0
+Col12
+Wire Wire Line
+	17625 19050 17625 19000
+Text GLabel 18375 19050 3    50   Input ~ 0
+Col11
+Wire Wire Line
 	17875 19050 17875 19000
-Text GLabel 18000 19250 3    50   Input ~ 0
-Row4
 Wire Wire Line
 	18125 19050 18125 19000
-Text GLabel 18500 19250 3    50   Input ~ 0
-Row5
 Wire Wire Line
 	18625 19050 18625 19000
-Text GLabel 18250 19250 3    50   Input ~ 0
-Col1
 Wire Wire Line
 	18375 19050 18375 19000
 $Comp
@@ -2901,17 +2859,6 @@ F 3 "" H 12050 17600 50  0001 C CNN
 	1    12050 17600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky DSH1
-U 1 1 5D48318C
-P 11575 17250
-F 0 "DSH1" V 11544 17329 31  0000 L CNN
-F 1 "RB060M-60TR" V 11606 17329 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 11575 17250 50  0001 C CNN
-F 3 "~" H 11575 17250 50  0001 C CNN
-	1    11575 17250
-	-1   0    0    1   
-$EndComp
 Text GLabel 11425 17250 0    50   Input ~ 0
 CASE
 Wire Notes Line width 20
@@ -2926,8 +2873,6 @@ Wire Notes Line width 20
 	10975 16575 10975 18075
 Text Notes 11325 16775 0    100  Italic 20
 Case ESD
-Wire Wire Line
-	11725 17250 11925 17250
 Wire Wire Line
 	11925 17300 11925 17250
 Connection ~ 11925 17250
@@ -2981,8 +2926,6 @@ Text GLabel 18375 15450 1    50   Input ~ 0
 Row1
 Wire Wire Line
 	17875 15500 17875 15550
-Text GLabel 17875 15450 1    50   Input ~ 0
-Col14
 Wire Notes Line width 20
 	1950 15850 3950 15850
 Wire Notes Line width 20
@@ -3000,8 +2943,6 @@ Wire Notes Line
 Text GLabel 11975 14775 0    40   Input ~ 0
 Extra1
 Text GLabel 11975 14875 0    40   Input ~ 0
-Extra2
-Text GLabel 19125 15425 1    40   Input ~ 0
 Extra2
 Text GLabel 20275 17950 2    40   Output ~ 0
 RGB_3V3
@@ -3237,30 +3178,29 @@ Wire Wire Line
 $Comp
 L Device:D D66
 U 1 1 5DD9A0A9
-P 16025 8500
-F 0 "D66" V 15994 8579 31  0000 L CNN
-F 1 "1N4148" V 16056 8579 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 16025 8500 50  0001 C CNN
-F 3 "~" H 16025 8500 50  0001 C CNN
-	1    16025 8500
+P 18025 8500
+F 0 "D66" V 17994 8579 31  0000 L CNN
+F 1 "1N4148" V 18056 8579 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 18025 8500 50  0001 C CNN
+F 3 "~" H 18025 8500 50  0001 C CNN
+	1    18025 8500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	15675 9000 15525 9000
+	17675 9000 17525 9000
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW80
 U 1 1 5DD9A0B4
-P 16025 9000
-F 0 "SW80" H 16025 9050 50  0000 C CNN
-F 1 "RALT_125" H 16025 8925 50  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX125" H 16025 9000 50  0001 C CNN
-F 3 "" H 16025 9000 50  0001 C CNN
-	1    16025 9000
+P 18025 9000
+F 0 "SW80" H 18025 9050 50  0000 C CNN
+F 1 "RALT_125" H 18025 8925 50  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX125" H 18025 9000 50  0001 C CNN
+F 3 "" H 18025 9000 50  0001 C CNN
+	1    18025 9000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15525 7050 15525 9000
-Connection ~ 15525 7050
+	17525 7050 17525 9000
 Connection ~ 7525 8025
 Connection ~ 9525 8025
 $Comp
@@ -3345,11 +3285,11 @@ Text GLabel 14075 7675 2    50   Input ~ 0
 L5
 Wire Wire Line
 	14075 7675 14025 7675
-Text GLabel 16075 8650 2    50   Input ~ 0
+Text GLabel 18075 8650 2    50   Input ~ 0
 L6
 Wire Wire Line
-	16075 8650 16025 8650
-Connection ~ 16025 8650
+	18075 8650 18025 8650
+Connection ~ 18025 8650
 Text GLabel 21025 8650 1    50   Input ~ 0
 L9
 Text GLabel 9025 8650 1    50   Input ~ 0
@@ -3372,8 +3312,7 @@ Wire Wire Line
 	20525 4125 20525 5100
 Connection ~ 20525 5100
 Wire Wire Line
-	16025 8350 16025 7375
-Connection ~ 16025 7375
+	18025 8350 18025 7375
 Wire Notes Line width 20 rgb(255, 123, 0)
 	19975 8400 4925 8400
 Wire Notes Line width 20 rgb(255, 123, 0)
@@ -3439,8 +3378,6 @@ F 3 "" H 10025 9975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10025 7375 14025 7375
-Wire Wire Line
-	14025 7375 16025 7375
 Wire Wire Line
 	8525 9000 8525 9975
 Wire Wire Line
@@ -5991,8 +5928,6 @@ Connection ~ 18525 7050
 Connection ~ 19025 7375
 Wire Wire Line
 	19025 7375 20025 7375
-Wire Wire Line
-	16025 7375 19025 7375
 Connection ~ 18525 8025
 Connection ~ 18525 9000
 Wire Wire Line
@@ -7334,16 +7269,9 @@ Connection ~ -6675 13375
 Connection ~ -3675 15175
 Connection ~ -4225 15175
 Connection ~ -3125 15175
-Wire Wire Line
-	-2850 15175 -3125 15175
-Connection ~ -2850 15175
-Wire Wire Line
-	-2575 15175 -2850 15175
 Connection ~ -2575 15175
 Wire Wire Line
 	-2575 15175 -2575 15225
-Wire Wire Line
-	-2850 15175 -2850 15225
 Wire Wire Line
 	-3125 15175 -3125 15225
 Wire Wire Line
@@ -8015,4 +7943,45 @@ Wire Wire Line
 Connection ~ -6425 14525
 Wire Wire Line
 	-6425 14275 -5875 14275
+Wire Wire Line
+	-3125 15175 -2575 15175
+Connection ~ 17525 7050
+Connection ~ 18025 7375
+Wire Wire Line
+	18025 7375 19025 7375
+Wire Wire Line
+	14025 7375 18025 7375
+Wire Wire Line
+	21075 7675 21025 7675
+Text GLabel 21075 7675 2    50   Input ~ 0
+L9
+Connection ~ 21025 7675
+Text GLabel 18625 19050 3    50   Input ~ 0
+Col10
+Text GLabel 18875 19050 3    50   Input ~ 0
+Col9
+Text GLabel 19125 19050 3    50   Input ~ 0
+Row4
+Text GLabel 16725 16650 0    50   Input ~ 0
+Col7
+Text GLabel 16725 16900 0    50   Input ~ 0
+Col6
+Text GLabel 16725 17150 0    50   Input ~ 0
+Col5
+Text GLabel 16725 18150 0    50   Input ~ 0
+Col4
+Wire Wire Line
+	11425 17250 11925 17250
+Text GLabel 16725 16150 0    50   Input ~ 0
+Row2
+Text GLabel 16725 18400 0    50   Input ~ 0
+Col3
+Text GLabel 16725 18650 0    50   Input ~ 0
+Col2
+Text GLabel 19375 19050 3    50   Input ~ 0
+Row5
+Text GLabel 17625 15500 1    50   Input ~ 0
+Row1
+Text GLabel 17375 19050 3    50   Input ~ 0
+Col14
 $EndSCHEMATC
