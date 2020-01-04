@@ -8090,7 +8090,7 @@ Wire Wire Line
 	17550 7150 17500 7150
 Connection ~ 17500 7150
 Text GLabel 18575 7150 2    50   Input ~ 0
-L2
+L3
 Wire Wire Line
 	18575 7150 18500 7150
 Connection ~ 18500 7150

@@ -913,30 +913,30 @@ F 3 "~" H 10925 17350 50  0001 C CNN
 	1    10925 17350
 	1    0    0    -1  
 $EndComp
-Text GLabel 20450 13975 0    40   Input ~ 0
-Extra8
 Text GLabel 20450 13875 0    40   Input ~ 0
-Extra7
+Extra8
 Text GLabel 20450 13775 0    40   Input ~ 0
-Extra6
+Extra7
 Text GLabel 20450 13675 0    40   Input ~ 0
-Extra5
+Extra6
 Text GLabel 20450 13575 0    40   Input ~ 0
-Extra4
+Extra5
 Text GLabel 20450 13475 0    40   Input ~ 0
+Extra4
+Text GLabel 20450 13375 0    40   Input ~ 0
 Extra3
 Wire Wire Line
-	20450 13975 20500 13975
+	20450 13875 20500 13875
 Wire Wire Line
-	20500 13875 20450 13875
+	20500 13775 20450 13775
 Wire Wire Line
-	20450 13775 20500 13775
+	20450 13675 20500 13675
 Wire Wire Line
-	20500 13675 20450 13675
+	20500 13575 20450 13575
 Wire Wire Line
-	20450 13575 20500 13575
+	20450 13475 20500 13475
 Wire Wire Line
-	20500 13475 20450 13475
+	20500 13375 20450 13375
 Wire Wire Line
 	27850 14000 27850 14050
 Wire Wire Line
@@ -951,22 +951,22 @@ Wire Wire Line
 	28750 16200 28700 16200
 Wire Wire Line
 	28750 16450 28700 16450
-Text GLabel 20450 14375 0    40   Input ~ 0
-Extra12
 Text GLabel 20450 14275 0    40   Input ~ 0
-Extra11
+Extra12
 Text GLabel 20450 14175 0    40   Input ~ 0
-Extra10
+Extra11
 Text GLabel 20450 14075 0    40   Input ~ 0
+Extra10
+Text GLabel 20450 13975 0    40   Input ~ 0
 Extra9
 Wire Wire Line
-	20450 14375 20500 14375
+	20450 14275 20500 14275
 Wire Wire Line
-	20500 14275 20450 14275
+	20500 14175 20450 14175
 Wire Wire Line
-	20450 14175 20500 14175
+	20450 14075 20500 14075
 Wire Wire Line
-	20500 14075 20450 14075
+	20500 13975 20450 13975
 Wire Wire Line
 	28750 16700 28700 16700
 Wire Wire Line
@@ -1151,10 +1151,6 @@ Wire Notes Line width 20
 	10425 14650 12425 14650
 Wire Notes Line
 	12425 14650 12425 14625
-Text GLabel 20450 13275 0    40   Input ~ 0
-Extra1
-Text GLabel 20450 13375 0    40   Input ~ 0
-Extra2
 Text GLabel 28750 16450 2    40   Output ~ 0
 RGB_3V3
 Wire Wire Line
@@ -1164,20 +1160,16 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	11850 12375 11850 14225
 $Comp
-L Connector_Generic:Conn_01x12 J2
+L Connector_Generic:Conn_01x10 J2
 U 1 1 5DBB9F27
 P 20700 13775
 F 0 "J2" H 20780 13768 50  0000 L CNN
 F 1 "Conn_01x12" H 20780 13675 50  0000 L CNN
-F 2 "acheron_Connectors:PinHeader_1x12_P2.54mm_Vertical" H 20700 13775 50  0001 C CNN
+F 2 "acheron_Connectors:PinHeader_1x10_P2.54mm_Vertical" H 20700 13775 50  0001 C CNN
 F 3 "~" H 20700 13775 50  0001 C CNN
 	1    20700 13775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20450 13375 20500 13375
-Wire Wire Line
-	20450 13275 20500 13275
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J1
 U 1 1 5D8D65B1

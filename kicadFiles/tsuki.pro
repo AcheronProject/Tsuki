@@ -1,4 +1,4 @@
-update=Sat 04 Jan 2020 04:39:58 PM -03
+update=Sat 04 Jan 2020 06:19:07 PM -03
 version=1
 last_client=kicad
 [general]
@@ -260,7 +260,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../
+PlotDirectoryName=../preAlpha/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
