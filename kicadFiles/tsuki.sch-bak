@@ -3466,17 +3466,6 @@ Connection ~ -2850 11625
 Wire Wire Line
 	-2850 11375 -2300 11375
 $Comp
-L Mechanical:MountingHole L6
-U 1 1 5FAD8D84
-P 1400 15275
-F 0 "L6" H 1500 15321 50  0000 L CNN
-F 1 "Warning" H 1500 15230 50  0000 L CNN
-F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 1400 15275 50  0001 C CNN
-F 3 "~" H 1400 15275 50  0001 C CNN
-	1    1400 15275
-	1    0    0    1   
-$EndComp
-$Comp
 L Mechanical:MountingHole L7
 U 1 1 5FAD91A2
 P 1400 15475
@@ -6209,11 +6198,6 @@ F 3 "" H 20050 7025 50  0001 C CNN
 	1    20050 7025
 	1    0    0    -1  
 $EndComp
-Connection ~ 20025 6700
-Wire Wire Line
-	20025 6675 20025 6700
-Wire Wire Line
-	20050 6675 20025 6675
 Connection ~ 19675 7050
 Wire Wire Line
 	19700 7050 19675 7050
@@ -7979,8 +7963,6 @@ Wire Wire Line
 	20025 8350 20025 7375
 Connection ~ 20025 7375
 Wire Wire Line
-	20025 7375 21025 7375
-Wire Wire Line
 	20050 8650 20025 8650
 Connection ~ 20025 8650
 Wire Wire Line
@@ -7988,4 +7970,218 @@ Wire Wire Line
 Connection ~ 17025 7375
 Wire Wire Line
 	17025 7375 18025 7375
+$Comp
+L Device:Rotary_Encoder_Switch ROT1
+U 1 1 5ED42700
+P 23550 6775
+F 0 "ROT1" H 23550 7142 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 23550 7051 50  0000 C CNN
+F 2 "acheron_Hardware:ALPS_EC11E" H 23400 6935 50  0001 C CNN
+F 3 "~" H 23550 7035 50  0001 C CNN
+	1    23550 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0199
+U 1 1 5ED72E0A
+P 23250 6775
+F 0 "#PWR0199" H 23250 6525 50  0001 C CNN
+F 1 "GND" H 23250 6650 31  0000 C CNN
+F 2 "" H 23250 6775 50  0001 C CNN
+F 3 "" H 23250 6775 50  0001 C CNN
+	1    23250 6775
+	0    1    1    0   
+$EndComp
+Text GLabel 21100 7675 2    50   Input ~ 0
+ROT_S1
+Text GLabel 20525 8075 3    50   Input ~ 0
+ROT_S2
+Wire Wire Line
+	21025 7675 21100 7675
+Text GLabel 23900 6675 2    50   Input ~ 0
+ROT_S1
+Text GLabel 23900 6875 2    50   Input ~ 0
+ROT_S2
+Wire Wire Line
+	23900 6675 23850 6675
+Wire Wire Line
+	23850 6875 23900 6875
+Connection ~ 21025 7675
+Wire Wire Line
+	20525 8075 20525 8025
+Connection ~ 20525 8025
+Wire Wire Line
+	20050 6675 20025 6675
+Wire Wire Line
+	20025 6675 20025 6700
+Wire Wire Line
+	20025 7375 21025 7375
+Connection ~ 20025 6700
+$Comp
+L Mechanical:MountingHole L6
+U 1 1 5FAD8D84
+P 1400 15275
+F 0 "L6" H 1500 15321 50  0000 L CNN
+F 1 "Warning" H 1500 15230 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 1400 15275 50  0001 C CNN
+F 3 "~" H 1400 15275 50  0001 C CNN
+	1    1400 15275
+	1    0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole L5
+U 1 1 5F78CCC4
+P 1400 15050
+F 0 "L5" H 1500 15096 50  0000 L CNN
+F 1 "Warning" H 1500 15005 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 1400 15050 50  0001 C CNN
+F 3 "~" H 1400 15050 50  0001 C CNN
+	1    1400 15050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small RR3
+U 1 1 5F7C0B0B
+P 22975 7900
+F 0 "RR3" H 23034 7931 31  0000 L CNN
+F 1 "10k" H 23034 7869 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H 22975 7900 50  0001 C CNN
+F 3 "~" H 22975 7900 50  0001 C CNN
+	1    22975 7900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CR3
+U 1 1 5F7C0B11
+P 22975 8150
+F 0 "CR3" H 23125 8200 31  0000 C CNN
+F 1 "100n" H 23125 8150 31  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 22975 8150 50  0001 C CNN
+F 3 "~" H 22975 8150 50  0001 C CNN
+	1    22975 8150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RR2
+U 1 1 5FB88AC6
+P 22975 7650
+F 0 "RR2" H 23034 7681 31  0000 L CNN
+F 1 "10k" H 23034 7619 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H 22975 7650 50  0001 C CNN
+F 3 "~" H 22975 7650 50  0001 C CNN
+	1    22975 7650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 5FF50090
+P 22975 8250
+F 0 "#PWR0203" H 22975 8000 50  0001 C CNN
+F 1 "GND" H 22975 8125 31  0000 C CNN
+F 2 "" H 22975 8250 50  0001 C CNN
+F 3 "" H 22975 8250 50  0001 C CNN
+	1    22975 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 5FF50A20
+P 23175 8250
+F 0 "#PWR0204" H 23175 8000 50  0001 C CNN
+F 1 "GND" H 23175 8125 31  0000 C CNN
+F 2 "" H 23175 8250 50  0001 C CNN
+F 3 "" H 23175 8250 50  0001 C CNN
+	1    23175 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22975 7475 23075 7475
+Wire Wire Line
+	22975 7800 22975 7775
+$Comp
+L Device:R_Small RR5
+U 1 1 600D8B77
+P 23175 7900
+F 0 "RR5" H 23234 7931 31  0000 L CNN
+F 1 "10k" H 23234 7869 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H 23175 7900 50  0001 C CNN
+F 3 "~" H 23175 7900 50  0001 C CNN
+	1    23175 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CR4
+U 1 1 600D8B7D
+P 23175 8150
+F 0 "CR4" H 23325 8200 31  0000 C CNN
+F 1 "100n" H 23325 8150 31  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 23175 8150 50  0001 C CNN
+F 3 "~" H 23175 8150 50  0001 C CNN
+	1    23175 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RR4
+U 1 1 600D8B83
+P 23175 7650
+F 0 "RR4" H 23234 7681 31  0000 L CNN
+F 1 "10k" H 23234 7619 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1206" H 23175 7650 50  0001 C CNN
+F 3 "~" H 23175 7650 50  0001 C CNN
+	1    23175 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23175 7800 23175 7775
+Text GLabel 23075 7400 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	23075 7400 23075 7475
+Connection ~ 23075 7475
+Wire Wire Line
+	23075 7475 23175 7475
+Text GLabel 22850 7775 0    50   Input ~ 0
+ROT_A
+Wire Wire Line
+	22975 8050 22975 8025
+Wire Wire Line
+	23175 8050 23175 8025
+Wire Wire Line
+	23175 7475 23175 7550
+Wire Wire Line
+	22975 7475 22975 7550
+Wire Wire Line
+	22850 7775 22975 7775
+Connection ~ 22975 7775
+Wire Wire Line
+	22975 7775 22975 7750
+Text GLabel 23300 7775 2    50   Input ~ 0
+ROT_B
+Wire Wire Line
+	23300 7775 23175 7775
+Connection ~ 23175 7775
+Wire Wire Line
+	23175 7775 23175 7750
+Text GLabel 23075 6675 0    50   Output ~ 0
+ROT_A
+Text GLabel 23075 6875 0    50   Output ~ 0
+ROT_B
+Wire Wire Line
+	23075 6875 23250 6875
+Wire Wire Line
+	23075 6675 23250 6675
+Text GLabel 22825 8025 0    50   Output ~ 0
+ENC_A
+Wire Wire Line
+	22825 8025 22975 8025
+Connection ~ 22975 8025
+Wire Wire Line
+	22975 8025 22975 8000
+Text GLabel 23325 8025 2    50   Output ~ 0
+ENC_B
+Wire Wire Line
+	23325 8025 23175 8025
+Connection ~ 23175 8025
+Wire Wire Line
+	23175 8025 23175 8000
 $EndSCHEMATC
