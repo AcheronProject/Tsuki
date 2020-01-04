@@ -5,8 +5,8 @@ $Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
 Title "TsukiPCB"
-Date "2019-09-26"
-Rev "0.1"
+Date "2020-01-04"
+Rev "pre-Alpha"
 Comp "Designed by Gondolindrim"
 Comment1 ""
 Comment2 ""
@@ -3468,23 +3468,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole L7
 U 1 1 5FAD91A2
-P 9875 13975
-F 0 "L7" H 9975 14021 50  0000 L CNN
-F 1 "Warning" H 9975 13930 50  0000 L CNN
-F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9875 13975 50  0001 C CNN
-F 3 "~" H 9875 13975 50  0001 C CNN
-	1    9875 13975
+P 9050 13325
+F 0 "L7" H 9150 13371 50  0000 L CNN
+F 1 "Warning" H 9150 13280 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9050 13325 50  0001 C CNN
+F 3 "~" H 9050 13325 50  0001 C CNN
+	1    9050 13325
 	1    0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole L8
 U 1 1 5FB65B89
-P 9875 14175
-F 0 "L8" H 9975 14221 50  0000 L CNN
-F 1 "Warning" H 9975 14130 50  0000 L CNN
-F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9875 14175 50  0001 C CNN
-F 3 "~" H 9875 14175 50  0001 C CNN
-	1    9875 14175
+P 9050 13525
+F 0 "L8" H 9150 13571 50  0000 L CNN
+F 1 "Warning" H 9150 13480 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9050 13525 50  0001 C CNN
+F 3 "~" H 9050 13525 50  0001 C CNN
+	1    9050 13525
 	1    0    0    1   
 $EndComp
 $Comp
@@ -5149,19 +5149,6 @@ F 3 "~" H 5225 7675 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4950 8100 4950 8125
-$Comp
-L power:GND #PWR0191
-U 1 1 5F7877E3
-P 4950 8125
-F 0 "#PWR0191" H 4950 7875 50  0001 C CNN
-F 1 "GND" H 4955 7966 31  0000 C CNN
-F 2 "" H 4950 8125 50  0001 C CNN
-F 3 "" H 4950 8125 50  0001 C CNN
-	1    4950 8125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4675 8100 4675 8125
 Wire Wire Line
 	4675 7775 4675 7800
@@ -5223,19 +5210,6 @@ F 2 "acheron_Components:R_SMD_1206" H 4400 7675 50  0001 C CNN
 F 3 "~" H 4400 7675 50  0001 C CNN
 	1    4400 7675
 	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4125 8100 4125 8125
-$Comp
-L power:GND #PWR0194
-U 1 1 5F78781F
-P 4125 8125
-F 0 "#PWR0194" H 4125 7875 50  0001 C CNN
-F 1 "GND" H 4130 7966 31  0000 C CNN
-F 2 "" H 4125 8125 50  0001 C CNN
-F 3 "" H 4125 8125 50  0001 C CNN
-	1    4125 8125
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3850 8100 3850 8125
@@ -5464,12 +5438,7 @@ F 3 "" H 7425 7950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 7775 3850 7800
-Wire Wire Line
-	4125 7775 4125 7800
-Wire Wire Line
-	4125 7775 3850 7775
 Connection ~ 3575 7775
-Connection ~ 3850 7775
 Wire Wire Line
 	3850 7775 3575 7775
 Wire Wire Line
@@ -5478,19 +5447,10 @@ Wire Wire Line
 	4675 7775 4400 7775
 Connection ~ 4400 7775
 Wire Wire Line
-	4400 7525 4950 7525
-Wire Wire Line
 	5500 7775 5225 7775
 Connection ~ 5225 7775
 Wire Wire Line
 	5225 7525 5775 7525
-Wire Wire Line
-	4950 7525 4950 7550
-Connection ~ 4950 7525
-Wire Wire Line
-	4950 7525 5225 7525
-Wire Wire Line
-	4950 7750 4950 7800
 Wire Wire Line
 	6050 7775 5775 7775
 Connection ~ 5775 7775
@@ -5558,7 +5518,6 @@ Wire Wire Line
 	27500 3925 28500 3925
 Wire Wire Line
 	28000 3600 28000 4575
-Connection ~ 26000 7500
 Connection ~ 27000 5550
 Wire Wire Line
 	26150 7500 26000 7500
@@ -5684,13 +5643,9 @@ Wire Wire Line
 Wire Wire Line
 	18000 7500 18000 8475
 Wire Wire Line
-	26000 7500 26000 8475
-Wire Wire Line
 	22000 7500 22000 8475
 Wire Wire Line
 	17000 7500 17000 8475
-Wire Wire Line
-	18500 5875 22500 5875
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW72
 U 1 1 5E0F3B14
@@ -5709,8 +5664,6 @@ Wire Wire Line
 Text GLabel 18500 8125 1    50   Input ~ 0
 L3
 Connection ~ 18000 7500
-Wire Notes Line width 20
-	30275 1175 30275 11175
 Wire Wire Line
 	29000 5550 29000 6525
 Text GLabel 15650 5875 0    50   Input ~ 0
@@ -5736,12 +5689,6 @@ F 3 "" H 16550 5600 50  0001 C CNN
 	1    16550 5600
 	1    0    0    -1  
 $EndComp
-Wire Notes Line width 20
-	15100 1175 30275 1175
-Wire Notes Line width 20
-	15100 11175 30275 11175
-Wire Notes Line width 20
-	15100 1175 15100 11175
 Text Notes 15775 8500 2    150  ~ 30
 7U Bottom (T for Tsangan bottom)
 Text Notes 15775 7550 2    150  ~ 30
@@ -5763,16 +5710,10 @@ Wire Wire Line
 Connection ~ 28500 4900
 Text GLabel 27500 8125 1    50   Input ~ 0
 L8
-Text GLabel 26500 8125 1    50   Input ~ 0
-L7
 Text GLabel 17500 8125 1    50   Input ~ 0
 L2
 Text GLabel 22500 8125 1    50   Input ~ 0
 L5
-Text GLabel 18500 7150 1    50   Input ~ 0
-L3
-Text GLabel 17500 7150 1    50   Input ~ 0
-L2
 Text GLabel 28525 7150 2    50   Input ~ 0
 L9
 Wire Wire Line
@@ -5783,14 +5724,6 @@ Wire Wire Line
 	22550 6175 22500 6175
 Text GLabel 22550 6175 2    50   Input ~ 0
 L5
-Wire Wire Line
-	18550 6175 18500 6175
-Text GLabel 18550 6175 2    50   Input ~ 0
-L3
-Wire Wire Line
-	17550 6175 17500 6175
-Text GLabel 17550 6175 2    50   Input ~ 0
-L2
 Connection ~ 16500 6175
 Wire Wire Line
 	16550 6175 16500 6175
@@ -5801,21 +5734,7 @@ L1
 Connection ~ 22000 7500
 Connection ~ 17000 7500
 Wire Wire Line
-	17000 6525 17000 7500
-Wire Wire Line
 	17150 7500 17000 7500
-Connection ~ 17000 6525
-$Comp
-L tsuki-rescue:MXSwitch-acheronSymbols SW81
-U 1 1 5E0F3B4D
-P 26500 8475
-F 0 "SW81" H 26500 8525 50  0000 C CNN
-F 1 "RALT_150" H 26500 8400 40  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX150" H 26500 8475 50  0001 C CNN
-F 3 "" H 26500 8475 50  0001 C CNN
-	1    26500 8475
-	1    0    0    -1  
-$EndComp
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW84
 U 1 1 5E0F3B38
@@ -5829,8 +5748,6 @@ F 3 "" H 27500 8475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	27150 8475 27000 8475
-Wire Wire Line
-	26150 8475 26000 8475
 Wire Wire Line
 	22150 8475 22000 8475
 $Comp
@@ -5859,7 +5776,6 @@ F 3 "" H 22500 7500 50  0001 C CNN
 	1    22500 7500
 	1    0    0    -1  
 $EndComp
-Connection ~ 18000 6525
 Connection ~ 16000 6525
 Wire Wire Line
 	25000 5550 25000 6525
@@ -5876,8 +5792,6 @@ F 3 "" H 25500 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	25150 7500 25000 7500
-Wire Wire Line
-	18000 6525 18000 7500
 $Comp
 L tsuki-rescue:MXSwitch-acheronSymbols SW71
 U 1 1 5DD9A069
@@ -5945,8 +5859,6 @@ $EndComp
 Wire Wire Line
 	28500 1975 29500 1975
 Connection ~ 18000 4575
-Wire Wire Line
-	17000 5550 17000 6525
 Connection ~ 17000 5550
 Connection ~ 22000 5550
 Connection ~ 18000 5550
@@ -6043,10 +5955,10 @@ Connection ~ 16000 5550
 Connection ~ 16000 4575
 Connection ~ 16000 3600
 Wire Notes Line width 20
-	29050 10950 29050 11200
+	29050 9125 29050 9375
 Wire Notes Line width 20
-	30275 10950 29050 10950
-Text Notes 29125 11125 0    100  ~ 20
+	30275 9125 29050 9125
+Text Notes 29125 9300 0    100  ~ 20
 Switch matrix
 Text Notes 15600 1375 0    0    ~ 0
 Switch matrix
@@ -6157,9 +6069,6 @@ F 3 "" H 28500 8500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	28150 7500 28000 7500
-Connection ~ 18500 5875
-Wire Wire Line
-	17500 5875 18500 5875
 $Comp
 L Device:D D57
 U 1 1 5E7E350A
@@ -6171,37 +6080,28 @@ F 3 "~" H 22500 6025 50  0001 C CNN
 	1    22500 6025
 	0    1    1    0   
 $EndComp
-Connection ~ 17500 5875
-Wire Wire Line
-	16500 5875 17500 5875
-Wire Wire Line
-	18000 5550 18000 6525
 $Comp
 L Device:D D56
 U 1 1 5E7A3ABC
-P 18500 6025
-F 0 "D56" V 18469 6104 31  0000 L CNN
-F 1 "1N4148" V 18531 6104 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 18500 6025 50  0001 C CNN
-F 3 "~" H 18500 6025 50  0001 C CNN
-	1    18500 6025
+P 18500 7000
+F 0 "D56" V 18469 7079 31  0000 L CNN
+F 1 "1N4148" V 18531 7079 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 18500 7000 50  0001 C CNN
+F 3 "~" H 18500 7000 50  0001 C CNN
+	1    18500 7000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	18150 6525 18000 6525
 $Comp
 L Device:D D55
 U 1 1 5E787F08
-P 17500 6025
-F 0 "D55" V 17469 6104 31  0000 L CNN
-F 1 "1N4148" V 17531 6104 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 17500 6025 50  0001 C CNN
-F 3 "~" H 17500 6025 50  0001 C CNN
-	1    17500 6025
+P 17500 7000
+F 0 "D55" V 17469 7079 31  0000 L CNN
+F 1 "1N4148" V 17531 7079 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 17500 7000 50  0001 C CNN
+F 3 "~" H 17500 7000 50  0001 C CNN
+	1    17500 7000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	17150 6525 17000 6525
 Connection ~ 16500 5875
 Wire Wire Line
 	15650 5875 16500 5875
@@ -7903,23 +7803,23 @@ Connection ~ 28500 5200
 $Comp
 L Mechanical:MountingHole L6
 U 1 1 5FAD8D84
-P 9875 13775
-F 0 "L6" H 9975 13821 50  0000 L CNN
-F 1 "Warning" H 9975 13730 50  0000 L CNN
-F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9875 13775 50  0001 C CNN
-F 3 "~" H 9875 13775 50  0001 C CNN
-	1    9875 13775
+P 9050 13125
+F 0 "L6" H 9150 13171 50  0000 L CNN
+F 1 "Warning" H 9150 13080 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9050 13125 50  0001 C CNN
+F 3 "~" H 9050 13125 50  0001 C CNN
+	1    9050 13125
 	1    0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole L5
 U 1 1 5F78CCC4
-P 9875 13550
-F 0 "L5" H 9975 13596 50  0000 L CNN
-F 1 "Warning" H 9975 13505 50  0000 L CNN
-F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9875 13550 50  0001 C CNN
-F 3 "~" H 9875 13550 50  0001 C CNN
-	1    9875 13550
+P 9050 12900
+F 0 "L5" H 9150 12946 50  0000 L CNN
+F 1 "Warning" H 9150 12855 50  0000 L CNN
+F 2 "acheron_Graphics:warning_sign_3.6x3.2mm" H 9050 12900 50  0001 C CNN
+F 3 "~" H 9050 12900 50  0001 C CNN
+	1    9050 12900
 	1    0    0    1   
 $EndComp
 $Comp
@@ -8131,42 +8031,106 @@ Connection ~ 6600 7775
 Wire Wire Line
 	6600 7775 6875 7775
 Connection ~ 2775 6625
-Wire Notes Line
+Wire Notes Line width 20
 	25575 20325 25575 22525
-Wire Notes Line
+Wire Notes Line width 20
 	25575 22525 11150 22525
-Wire Notes Line
+Wire Notes Line width 20
 	11150 22525 11150 20325
-Wire Notes Line
+Wire Notes Line width 20
 	11150 20325 25575 20325
 Text Notes 24325 22450 0    100  Italic 20
 RGB Underglow
-Wire Notes Line
+Wire Notes Line width 20
 	25575 22250 24275 22250
-Wire Notes Line
+Wire Notes Line width 20
 	24275 22250 24275 22525
-Wire Notes Line
+Wire Notes Line width 20
 	8725 2500 8725 8950
-Wire Notes Line
+Wire Notes Line width 20
 	8725 8950 1075 8950
-Wire Notes Line
+Wire Notes Line width 20
 	1075 8950 1075 2500
-Wire Notes Line
+Wire Notes Line width 20
 	1075 2500 8725 2500
 Text Notes 7525 8875 0    100  ~ 20
 Per-keys LEDs
-Wire Notes Line
+Wire Notes Line width 20
 	8725 8650 7450 8650
-Wire Notes Line
+Wire Notes Line width 20
 	7450 8650 7450 8950
 Text Notes 5250 14325 0    100  ~ 20
 Encoder
-Wire Notes Line
+Wire Notes Line width 20
 	6425 11875 6425 14450
-Wire Notes Line
+Wire Notes Line width 20
 	6425 14450 4675 14450
-Wire Notes Line
+Wire Notes Line width 20
 	4675 14450 4675 11875
-Wire Notes Line
+Wire Notes Line width 20
 	4675 11875 6425 11875
+Connection ~ 26000 7500
+Wire Wire Line
+	26150 8475 26000 8475
+$Comp
+L tsuki-rescue:MXSwitch-acheronSymbols SW81
+U 1 1 5E0F3B4D
+P 26500 8475
+F 0 "SW81" H 26500 8525 50  0000 C CNN
+F 1 "RALT_150" H 26500 8400 40  0000 C CNN
+F 2 "acheron_MX_SolderMask:MX150" H 26500 8475 50  0001 C CNN
+F 3 "" H 26500 8475 50  0001 C CNN
+	1    26500 8475
+	1    0    0    -1  
+$EndComp
+Text GLabel 26500 8125 1    50   Input ~ 0
+L7
+Wire Wire Line
+	26000 7500 26000 8475
+Wire Wire Line
+	16500 5875 17500 5875
+Wire Wire Line
+	18000 5550 18000 7500
+Wire Wire Line
+	17000 5550 17000 7500
+Wire Wire Line
+	17500 6850 17500 5875
+Connection ~ 17500 5875
+Wire Wire Line
+	17500 5875 18500 5875
+Wire Wire Line
+	18500 6850 18500 5875
+Connection ~ 18500 5875
+Wire Wire Line
+	18500 5875 22500 5875
+Text GLabel 17550 7150 2    50   Input ~ 0
+L2
+Wire Wire Line
+	17550 7150 17500 7150
+Connection ~ 17500 7150
+Text GLabel 18575 7150 2    50   Input ~ 0
+L2
+Wire Wire Line
+	18575 7150 18500 7150
+Connection ~ 18500 7150
+Wire Notes Line width 20
+	30275 9350 30275 1150
+Wire Notes Line width 20
+	30275 1150 11225 1150
+Wire Notes Line width 20
+	11225 1150 11225 9350
+Wire Notes Line width 20
+	11225 9350 30275 9350
+Text Notes 8850 14050 0    100  ~ 20
+Warning\nsigns
+Wire Notes Line
+	8600 12600 9775 12600
+Wire Notes Line
+	9775 12600 9775 14175
+Wire Notes Line
+	9775 14175 8600 14175
+Wire Notes Line
+	8600 14175 8600 12600
+Wire Wire Line
+	4400 7525 5225 7525
 $EndSCHEMATC

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 247)
+    (drawings 246)
     (tracks 2920)
     (zones 0)
     (modules 387)
@@ -13,9 +13,9 @@
   (title_block
     (title Tsuki)
     (date 2019-09-26)
-    (rev 0.1)
+    (rev pre-Alpha)
     (comment 1 "Designed by Gondolindrim")
-    (comment 2 "Project page: http://github.com/Gondolindrim/Tsuki60")
+    (comment 2 "Project page: http://github.com/Gondolindrim/Tsuki")
   )
 
   (layers
@@ -27,10 +27,10 @@
     (35 F.Paste user hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user)
+    (38 B.Mask user hide)
     (39 F.Mask user)
     (40 Dwgs.User user)
-    (41 Cmts.User user hide)
+    (41 Cmts.User user)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
@@ -24911,9 +24911,6 @@
   (gr_text 7U/6U (at 212.82625 170.918625) (layer F.SilkS) (tstamp 5DF2F814)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
-  (gr_text "(vi) Some switch fooprints had to be " (at 422.37625 271.693125) (layer Cmts.User) (tstamp 5D976285)
-    (effects (font (size 1.524 1.524) (thickness 0.1524)) (justify left))
-  )
   (gr_text "(IV) For detailed information, check the Acheron Docs page for the ArcticPCB:\nhttp://gondolindrim.github.io/AcheronDocs/tsuki/intro.html" (at 419.83625 87.543125) (layer Cmts.User) (tstamp 5D861DCF)
     (effects (font (size 1.524 1.524) (thickness 0.1524)) (justify left))
   )
@@ -27759,8 +27756,6 @@
   (segment (start 117.95725 171.272625) (end 124.46951 171.272625) (width 0.508) (layer F.Cu) (net 206))
   (segment (start 129.392 171.272625) (end 130.7525 172.633125) (width 0.508) (layer F.Cu) (net 206))
   (segment (start 124.46951 171.272625) (end 129.392 171.272625) (width 0.508) (layer F.Cu) (net 206))
-  (segment (start 106.94 172.633125) (end 108.718 170.855125) (width 0.508) (layer F.Cu) (net 215))
-  (segment (start 108.718 170.855125) (end 115.54425 170.855125) (width 0.508) (layer F.Cu) (net 215))
   (segment (start 82.96875 172.633125) (end 84.87375 170.728125) (width 0.508) (layer F.Cu) (net 207))
   (segment (start 84.87375 170.728125) (end 86.84225 170.728125) (width 0.508) (layer F.Cu) (net 207))
   (segment (start 88.108847 171.994722) (end 88.108847 173.506319) (width 0.508) (layer F.Cu) (net 207))
@@ -28239,6 +28234,8 @@
   (segment (start 140.09175 173.506319) (end 135.86425 173.506319) (width 0.508) (layer F.Cu) (net 214))
   (segment (start 117.95725 174.247625) (end 117.95725 175.490625) (width 0.508) (layer F.Cu) (net 214))
   (segment (start 115.54425 174.247625) (end 115.54425 175.490625) (width 0.508) (layer F.Cu) (net 214))
+  (segment (start 106.94 172.633125) (end 108.718 170.855125) (width 0.508) (layer F.Cu) (net 215))
+  (segment (start 108.718 170.855125) (end 115.54425 170.855125) (width 0.508) (layer F.Cu) (net 215))
 
   (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D867FB3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
