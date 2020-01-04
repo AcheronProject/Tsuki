@@ -5591,15 +5591,15 @@ Text GLabel 16725 18150 0    50   Input ~ 0
 Col4
 Wire Wire Line
 	11425 17250 11925 17250
-Text GLabel 16725 16150 0    50   Input ~ 0
-Row2
+Text GLabel 17625 15500 1    50   Input ~ 0
+ENC_A
 Text GLabel 16725 18400 0    50   Input ~ 0
 Col3
 Text GLabel 16725 18650 0    50   Input ~ 0
 Col2
 Text GLabel 19375 19050 3    50   Input ~ 0
 Row5
-Text GLabel 17625 15500 1    50   Input ~ 0
+Text GLabel 17875 15500 1    50   Input ~ 0
 Row1
 Text GLabel 17375 19050 3    50   Input ~ 0
 Col14
@@ -7918,9 +7918,9 @@ Text GLabel 20275 17700 2    40   Input ~ 0
 Extra10
 Text GLabel 20275 17450 2    40   Input ~ 0
 Extra9
-Text GLabel 17875 15500 1    40   Input ~ 0
-Extra1
 Text GLabel 18375 15500 1    40   Input ~ 0
+Row2
+Text GLabel 18400 15025 1    40   Input ~ 0
 Extra2
 Connection ~ 16525 7050
 Connection ~ 17525 7050
@@ -8141,7 +8141,7 @@ Connection ~ 23075 7475
 Wire Wire Line
 	23075 7475 23175 7475
 Text GLabel 22850 7775 0    50   Input ~ 0
-ROT_A
+ROT_B
 Wire Wire Line
 	22975 8050 22975 8025
 Wire Wire Line
@@ -8156,7 +8156,7 @@ Connection ~ 22975 7775
 Wire Wire Line
 	22975 7775 22975 7750
 Text GLabel 23300 7775 2    50   Input ~ 0
-ROT_B
+ROT_A
 Wire Wire Line
 	23300 7775 23175 7775
 Connection ~ 23175 7775
@@ -8171,17 +8171,19 @@ Wire Wire Line
 Wire Wire Line
 	23075 6675 23250 6675
 Text GLabel 22825 8025 0    50   Output ~ 0
-ENC_A
+ENC_B
 Wire Wire Line
 	22825 8025 22975 8025
 Connection ~ 22975 8025
 Wire Wire Line
 	22975 8025 22975 8000
 Text GLabel 23325 8025 2    50   Output ~ 0
-ENC_B
+ENC_A
 Wire Wire Line
 	23325 8025 23175 8025
 Connection ~ 23175 8025
 Wire Wire Line
 	23175 8025 23175 8000
+Text GLabel 16725 16150 0    50   Input ~ 0
+ENC_B
 $EndSCHEMATC

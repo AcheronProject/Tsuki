@@ -2127,7 +2127,7 @@ F 1 "AO4407A" H -6319 10955 50  0000 L CNN
 F 2 "acheron_Components:SOIC-8" H -6325 11100 50  0001 C CNN
 F 3 "" H -6525 11000 50  0001 C CNN
 	1    -6425 11000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Transistor_BJT:DTC123J QRST2
