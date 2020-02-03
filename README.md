@@ -21,7 +21,7 @@ Tsuki was heavily based on the [GH60](https://github.com/komar007/gh60), a legen
 ## Contributors
 
 - Raphael "ArcticFox" Hochheim for helping choosing the compatible layouts and the naming of the PCBs
-- Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funcing my learning
+- Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funding my learning
 
 ## Renders
 
